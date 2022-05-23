@@ -6,6 +6,7 @@ public class TestCharacterController : MonoBehaviour
 {
 
     [SerializeField] public float movementSpeed = 1f;
+    public SpawnManager spawnManager;
 
     // Start is called before the first frame update
     void Start()
@@ -19,5 +20,11 @@ public class TestCharacterController : MonoBehaviour
         float hMovement = Input.GetAxis("Horizontal") * movementSpeed / 2;
         float vMovement = Input.GetAxis("Vertical") * movementSpeed;
         transform.Translate(new Vector3(hMovement, 0, vMovement) * Time.deltaTime);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        spawnManager.SpawnTriggerEntered();
+        Debug.Log("OnTriggerEnter fired");
     }
 }
