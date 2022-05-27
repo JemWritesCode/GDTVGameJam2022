@@ -365,6 +365,7 @@
 "Assets/ImportedAssets/ZRNAssets/PQAssets/Query-Chan/Scripts/QueryEmotionalController.cs"
 "Assets/ImportedAssets/ZRNAssets/PQAssets/Query-Chan/Scripts/QuerySoundController.cs"
 "Assets/Scripts/CameraControl.cs"
+"Assets/Scripts/PlotSpawner.cs"
 "Assets/Scripts/RoadSpawner.cs"
 "Assets/Scripts/SpawnManager.cs"
 "Assets/Scripts/TestCharacterController.cs"
