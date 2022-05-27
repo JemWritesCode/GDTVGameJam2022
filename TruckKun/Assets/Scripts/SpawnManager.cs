@@ -21,6 +21,5 @@ public class SpawnManager : MonoBehaviour
     public void SpawnTriggerEntered()
     {
         roadSpawner.MoveRoad();
-        Debug.Log("Spawn Trigger was entered.");
     }
 }

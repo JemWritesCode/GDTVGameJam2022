@@ -11,12 +11,12 @@ public class RoadSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         if (roads != null && roads.Count > 0)
         {
             roads = roads.OrderBy(r => r.transform.position.z).ToList();
         }
     }
-
     public void MoveRoad()
     {
         GameObject movedRoad = roads[0];
@@ -25,4 +25,5 @@ public class RoadSpawner : MonoBehaviour
         movedRoad.transform.localPosition = new Vector3(0, 0, newZ);
         roads.Add(movedRoad);
     }
+
 }

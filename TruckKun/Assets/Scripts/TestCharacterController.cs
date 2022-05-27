@@ -25,6 +25,5 @@ public class TestCharacterController : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         spawnManager.SpawnTriggerEntered();
-        Debug.Log("OnTriggerEnter fired");
     }
 }
