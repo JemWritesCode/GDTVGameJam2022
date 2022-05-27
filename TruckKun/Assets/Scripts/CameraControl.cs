@@ -6,10 +6,10 @@ public class CameraControl : MonoBehaviour
 {
     private Transform player;
 
+    [SerializeField] private float xOffset;
     [SerializeField] private float yOffset;
     [SerializeField] private float zOffset;
-    [SerializeField] private float xOffset;
-
+    
     // Start is called before the first frame update
     void Start()
     {

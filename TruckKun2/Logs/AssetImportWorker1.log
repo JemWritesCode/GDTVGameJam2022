@@ -1,0 +1,679 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.2f1 (d6360bedb9a0) revision 14038539'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16325 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\UnityPractice\2021.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Jem/Documents/GitHub/GDTVGameJam2022/TruckKun2
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+53329
+Successfully changed project path to: C:/Users/Jem/Documents/GitHub/GDTVGameJam2022/TruckKun2
+C:/Users/Jem/Documents/GitHub/GDTVGameJam2022/TruckKun2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 101.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
+[Subsystems] Discovering subsystems at path E:/UnityPractice/2021.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Jem/Documents/GitHub/GDTVGameJam2022/TruckKun2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Vendor:   NVIDIA
+    VRAM:     2988 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'E:/UnityPractice/2021.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'E:/UnityPractice/2021.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/UnityPractice/2021.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/UnityPractice/2021.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/UnityPractice/2021.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005277 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 116.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.762 seconds
+Domain Reload Profiling:
+	ReloadAssembly (763ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (547ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (117ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (349ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (116ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010489 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jem\Documents\GitHub\GDTVGameJam2022\TruckKun2\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jem\Documents\GitHub\GDTVGameJam2022\TruckKun2\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.484 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1484ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (915ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (285ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (437ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (276ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (113.0 KB). Loaded Objects now: 3838.
+Memory consumption went from 121.3 MB to 121.2 MB.
+Total: 5.052200 ms (FindLiveObjects: 0.401000 ms CreateObjectMapping: 0.471700 ms MarkObjects: 4.035400 ms  DeleteObjects: 0.142500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 70765.340093 seconds.
+  path: Assets/ZRNAssets/Cars/Car_Sedan_01.fbx
+  artifactKey: Guid(ca7ffa4613f44456e97dfb8df3dd1a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/Cars/Car_Sedan_01.fbx using Guid(ca7ffa4613f44456e97dfb8df3dd1a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55094045cf71eddc7ba96cbb6ece1345') in 0.520708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ZRNAssets/Cars/Car_TAXI_02.fbx
+  artifactKey: Guid(84f061a46241e492fb7a857d85b3e4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/Cars/Car_TAXI_02.fbx using Guid(84f061a46241e492fb7a857d85b3e4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7bef550d9e1e78cd1b539bd0b81acc') in 0.057416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ZRNAssets/Cars/Car_Sedan_02.fbx
+  artifactKey: Guid(60b2a39a62fbc4c6aa251a492af217fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/Cars/Car_Sedan_02.fbx using Guid(60b2a39a62fbc4c6aa251a492af217fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc81eb13a9c4ea627a1db4b38ec3e87') in 0.043927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ZRNAssets/Cars/Car_TAXI_01.fbx
+  artifactKey: Guid(3c30a7463e7c945e5be8e3d79f339dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/Cars/Car_TAXI_01.fbx using Guid(3c30a7463e7c945e5be8e3d79f339dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36169213a4706437657f262377575f4') in 0.047256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ZRNAssets/Cars/Car_TAXI_03.fbx
+  artifactKey: Guid(09138089c3c6f421cb5374ef0466c53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/Cars/Car_TAXI_03.fbx using Guid(09138089c3c6f421cb5374ef0466c53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9971d6643f53c8724512ab6e24a5ff') in 0.054998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ZRNAssets/Cars/Car_Sedan_03.fbx
+  artifactKey: Guid(f8fb5be307ca84a53bf7b8b966a2b4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/Cars/Car_Sedan_03.fbx using Guid(f8fb5be307ca84a53bf7b8b966a2b4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb4466cf7aff3cf029ada101193d87d') in 0.043929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ZRNAssets/Cars/Car_TAXI_04.fbx
+  artifactKey: Guid(cf44e54909dd04dff9e881d4f0c78015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/Cars/Car_TAXI_04.fbx using Guid(cf44e54909dd04dff9e881d4f0c78015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb6e2302dc582a0443ca306ec2c6908') in 0.051720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ZRNAssets/Cars/Car_Sedan_04.fbx
+  artifactKey: Guid(1fe8274d159fc4e618364536c2fde5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/Cars/Car_Sedan_04.fbx using Guid(1fe8274d159fc4e618364536c2fde5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995d49577cb233957d7d21d735b702d2') in 0.430125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.135706 seconds.
+  path: Assets/ZRNAssets/Cars/Models/Car_Hatchback_02.fbx
+  artifactKey: Guid(29c979e8ce65909498d7e8bfcd841d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/Cars/Models/Car_Hatchback_02.fbx using Guid(29c979e8ce65909498d7e8bfcd841d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6497b38c26b72ff116dfadccb3e5966') in 0.056016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ZRNAssets/Cars/Models/Car_Sedan_03.fbx
+  artifactKey: Guid(19b6ed05b110c5d49bdaffeb97fd3e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/Cars/Models/Car_Sedan_03.fbx using Guid(19b6ed05b110c5d49bdaffeb97fd3e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd4216f79c9ef1fcc6403e80fa18601') in 0.321453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/ZRNAssets/Cars/Models/Car_Kei_01.fbx
+  artifactKey: Guid(f70fa4911611b5749ae34d006f4b93f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/Cars/Models/Car_Kei_01.fbx using Guid(f70fa4911611b5749ae34d006f4b93f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb048eaf8122dfb1a2bc4d683cb866f9') in 0.066336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ZRNAssets/Cars/Models/Car_Sedan_02.fbx
+  artifactKey: Guid(956f5586ec9edcc4594abf7f3a68bd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/Cars/Models/Car_Sedan_02.fbx using Guid(956f5586ec9edcc4594abf7f3a68bd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7425254ceea3b85fad0d45a4c478822b') in 0.054774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ZRNAssets/Cars/Models/Car_TAXI_04.fbx
+  artifactKey: Guid(b75b28350f4a9ba4d86b15d5704f93c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/Cars/Models/Car_TAXI_04.fbx using Guid(b75b28350f4a9ba4d86b15d5704f93c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c277a8f4c920c838c5b48f388864fda') in 0.069949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ZRNAssets/Cars/Models/Car_TAXI_03.fbx
+  artifactKey: Guid(dfa1b4213a6685f4aba17a12d5acb9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/Cars/Models/Car_TAXI_03.fbx using Guid(dfa1b4213a6685f4aba17a12d5acb9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5c0e52226cbc1e4387887310605a87') in 0.056210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ZRNAssets/Cars/Models/Car_Hatchback_04.fbx
+  artifactKey: Guid(608f0fdf234fe0f49b4897eefec42f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/Cars/Models/Car_Hatchback_04.fbx using Guid(608f0fdf234fe0f49b4897eefec42f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59998b84c74ab8786a8187e3e598a6c5') in 0.070178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ZRNAssets/Cars/Models/Car_TAXI_01.fbx
+  artifactKey: Guid(9966bef51f8cb6d4493dcebd711faeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/Cars/Models/Car_TAXI_01.fbx using Guid(9966bef51f8cb6d4493dcebd711faeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346f79b7cb779f4f5dc63cfea44e0717') in 0.055885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ZRNAssets/Cars/Models/Car_Kei_04.fbx
+  artifactKey: Guid(42a53a2738e7df043b79bfede1ca0fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/Cars/Models/Car_Kei_04.fbx using Guid(42a53a2738e7df043b79bfede1ca0fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1531fb49cff912208eb0aacb643c55') in 0.054861 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009893 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jem\Documents\GitHub\GDTVGameJam2022\TruckKun2\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jem\Documents\GitHub\GDTVGameJam2022\TruckKun2\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.326 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1327ms)
+		BeginReloadAssembly (180ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1008ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (363ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (429ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (268ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3370 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (80.5 KB). Loaded Objects now: 3850.
+Memory consumption went from 125.4 MB to 125.3 MB.
+Total: 4.417500 ms (FindLiveObjects: 0.366100 ms CreateObjectMapping: 0.300100 ms MarkObjects: 3.649600 ms  DeleteObjects: 0.100300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009631 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jem\Documents\GitHub\GDTVGameJam2022\TruckKun2\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jem\Documents\GitHub\GDTVGameJam2022\TruckKun2\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.374 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1375ms)
+		BeginReloadAssembly (193ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1057ms)
+			LoadAssemblies (144ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (389ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (445ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (290ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3370 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (80.5 KB). Loaded Objects now: 3853.
+Memory consumption went from 125.4 MB to 125.3 MB.
+Total: 4.968500 ms (FindLiveObjects: 0.392600 ms CreateObjectMapping: 0.303500 ms MarkObjects: 4.155500 ms  DeleteObjects: 0.115800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 75.488957 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_TransP_unitedmat_1.mat
+  artifactKey: Guid(5be949063ecc54ab7a3db1f481da18e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_TransP_unitedmat_1.mat using Guid(5be949063ecc54ab7a3db1f481da18e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1217f42b85835d21dc1eb47d9283471') in 0.623929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_0.mat
+  artifactKey: Guid(25fe600d555c6451ca2bf915e7569c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_0.mat using Guid(25fe600d555c6451ca2bf915e7569c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369179b0edc6a13d85af55689b273988') in 0.020237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_2.mat
+  artifactKey: Guid(531ee3af279254b848d5e0cad399e229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_2.mat using Guid(531ee3af279254b848d5e0cad399e229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d153193c177d45965bd31de9a3c6e22') in 0.017144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_28.mat
+  artifactKey: Guid(7bcfa8b8904ff4141867b2518ce1795f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_28.mat using Guid(7bcfa8b8904ff4141867b2518ce1795f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60285812b9f1b0c5e66c24dc373cdf81') in 0.018745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_16.mat
+  artifactKey: Guid(889d201d4d16c4aecbc3c865dd2959a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_16.mat using Guid(889d201d4d16c4aecbc3c865dd2959a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f85a64b56b0135eb79215cf3e299fe8') in 0.016339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_9.mat
+  artifactKey: Guid(fd15907f3602d49c39fac82df2c48667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_9.mat using Guid(fd15907f3602d49c39fac82df2c48667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258efc6f86a1672660a3e0a12c572b6c') in 0.022405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_31.mat
+  artifactKey: Guid(6c9e617aea3b2472988abd2857541b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_31.mat using Guid(6c9e617aea3b2472988abd2857541b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570005909be814f451ad3ebd40022abd') in 0.019641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_36.mat
+  artifactKey: Guid(a365268ce27b04b799a5ac1a95114e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_36.mat using Guid(a365268ce27b04b799a5ac1a95114e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3dec1ad2579be90963b442fc1abfccd') in 0.016991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_15.mat
+  artifactKey: Guid(97c2d3da7fc9341ecaa56cce1cc3c443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_15.mat using Guid(97c2d3da7fc9341ecaa56cce1cc3c443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd137d3ddcdc2f0c359767805210e8f0d') in 0.015598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_39.mat
+  artifactKey: Guid(5440da42bf8f44b42be46eeb6e180273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_39.mat using Guid(5440da42bf8f44b42be46eeb6e180273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4eb456cf4ed4c2a439e53997ef15d6') in 0.017708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_22.mat
+  artifactKey: Guid(148ed90ee4ff84d85863d0b976397beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_22.mat using Guid(148ed90ee4ff84d85863d0b976397beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203629e191a2ff36f0e5a6ee24021df7') in 0.018318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_60.mat
+  artifactKey: Guid(2fb53b94fa98b44a5932943b0d475003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_60.mat using Guid(2fb53b94fa98b44a5932943b0d475003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e879f634117cb47e001c0b8658467716') in 0.020800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_69.mat
+  artifactKey: Guid(0951ace41c9a34cbf9a7c387e51f92a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_69.mat using Guid(0951ace41c9a34cbf9a7c387e51f92a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6326938ff48f9e6aefa6d66e12efb03') in 0.018706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_20.mat
+  artifactKey: Guid(1e5715f2b5e844fdd8b63cd8462d8277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_20.mat using Guid(1e5715f2b5e844fdd8b63cd8462d8277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e5a92111b4c45cd3bb4d8fad2b05b4') in 0.017558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_45.mat
+  artifactKey: Guid(15bd903daacb7427a915b1c5053fdd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_45.mat using Guid(15bd903daacb7427a915b1c5053fdd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0496cd16ad4f9a15785ad6a752aebf08') in 0.018343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_68.mat
+  artifactKey: Guid(5cdc7f358e2b741298a40407223b0dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_68.mat using Guid(5cdc7f358e2b741298a40407223b0dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd085dc3b85400c2fa8eae8c7ea1ec3') in 0.016535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_71.mat
+  artifactKey: Guid(761c87cba5a1b4a45822a064743665a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_71.mat using Guid(761c87cba5a1b4a45822a064743665a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4623b1701359ffca43f25e132a1a1c53') in 0.020201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_70.mat
+  artifactKey: Guid(fbfadfe3e581147b396d44be8ffeacae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_70.mat using Guid(fbfadfe3e581147b396d44be8ffeacae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ebec9e8b2a4c1b2c9286f0b7a275f18') in 0.016028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_10.mat
+  artifactKey: Guid(f8bf321b019174714b0e62349e8d7d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_10.mat using Guid(f8bf321b019174714b0e62349e8d7d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af00b1dccebad3dc4ba9e7f2d11660d1') in 0.016563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_25.mat
+  artifactKey: Guid(52ad49a1d965a4327a38c4e1e0bc861d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_25.mat using Guid(52ad49a1d965a4327a38c4e1e0bc861d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb90b9a6530a7887593fd1c94a2efc6') in 0.019141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_23.mat
+  artifactKey: Guid(639b6f9460b524618bbd8e20fd5fa0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_23.mat using Guid(639b6f9460b524618bbd8e20fd5fa0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7377d81e347f871e58ec8f04c5258b53') in 0.017843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_49.mat
+  artifactKey: Guid(6417c182ba1ad49eab96e053f1b7a98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_49.mat using Guid(6417c182ba1ad49eab96e053f1b7a98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4510a2f44e4eba00712bd1bef4e6b10a') in 0.019372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_73.mat
+  artifactKey: Guid(a401474554cff4112ad4c329ae117ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_73.mat using Guid(a401474554cff4112ad4c329ae117ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28b348cd77d9c83875093349338756d') in 0.016669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_30.mat
+  artifactKey: Guid(c022148d2ea7c4109864fb1d4f3c7a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_30.mat using Guid(c022148d2ea7c4109864fb1d4f3c7a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c39f09e47c1c9a2fe77b471e846043') in 0.016646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_19.mat
+  artifactKey: Guid(458e5c6f433c1411f86e0dfc36575b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_19.mat using Guid(458e5c6f433c1411f86e0dfc36575b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb4b1c70c9174ed506b7eb153dba753') in 0.018272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_27.mat
+  artifactKey: Guid(830e1bc64411d4545af3a6eb6d2a2c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_27.mat using Guid(830e1bc64411d4545af3a6eb6d2a2c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e9cf5bfc0aaef67894dc244fc54fa3') in 0.017615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_11.mat
+  artifactKey: Guid(ed6e7cb5c83554965b896b3ef7c01d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_11.mat using Guid(ed6e7cb5c83554965b896b3ef7c01d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c8af927b8cfa3bf0a7a308cccd031f') in 0.020533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_21.mat
+  artifactKey: Guid(1f4b4ccc8e550450681af19cf7162e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_21.mat using Guid(1f4b4ccc8e550450681af19cf7162e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e005484d7c93c617ec24cf02965722a1') in 0.016563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_51.mat
+  artifactKey: Guid(ed12f56107a99464397b1cf772fc4a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_51.mat using Guid(ed12f56107a99464397b1cf772fc4a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c28cfa2c775960b70628e90cf4b61d3') in 0.020144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_37.mat
+  artifactKey: Guid(396f6b502aa6249e3980de60c9a05161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_37.mat using Guid(396f6b502aa6249e3980de60c9a05161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd446e5a8740b52a39c2e4b063648deaa') in 0.019740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_14.mat
+  artifactKey: Guid(1c4b58f6eef8c458d995ecdd35ca42ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_14.mat using Guid(1c4b58f6eef8c458d995ecdd35ca42ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ad9542f703669572b7679cdcddfbff') in 0.019150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_32.mat
+  artifactKey: Guid(491b8b02e83054e9e82bad1b41da15e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_32.mat using Guid(491b8b02e83054e9e82bad1b41da15e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493a11c717416f9dc0e2968ebc7f077d') in 0.022117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_8.mat
+  artifactKey: Guid(f94b920cad2954d0883948d34cf645a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_8.mat using Guid(f94b920cad2954d0883948d34cf645a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267a8fb4288ac058956faf33a9de32ea') in 0.018899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_65.mat
+  artifactKey: Guid(cd3d1ced2fa0349c5ac6632c37f7e31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_65.mat using Guid(cd3d1ced2fa0349c5ac6632c37f7e31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc65493bebcb6629d8969b39cac0479') in 0.036698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_4.mat
+  artifactKey: Guid(173b43dfbbd564b1e8f95f1e4caad05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_4.mat using Guid(173b43dfbbd564b1e8f95f1e4caad05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42275d5e5e31f1b19219e7a330414494') in 0.017123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_48.mat
+  artifactKey: Guid(e393d18f411934f04a8d79f4b4126223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_48.mat using Guid(e393d18f411934f04a8d79f4b4126223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69358c8c64f5860c1d17c1f58ffd260') in 0.020031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_50.mat
+  artifactKey: Guid(9f6e51af1a2ba44f59a02b53a29b3654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_50.mat using Guid(9f6e51af1a2ba44f59a02b53a29b3654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30660981fd01e32d8aeeebfc569b7a25') in 0.022324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_66.mat
+  artifactKey: Guid(fccb4e3e534434b87a30d214a338024d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_66.mat using Guid(fccb4e3e534434b87a30d214a338024d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1244c768ae290631f86c6f496719d48a') in 0.016648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_76.mat
+  artifactKey: Guid(b5346d04e9fa246e5afe0e0afa935549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_76.mat using Guid(b5346d04e9fa246e5afe0e0afa935549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10fb588ca332d8636ddfeb5d7f2c84d6') in 0.018484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_33.mat
+  artifactKey: Guid(0125ed2924c504bd7bcce66299ca4fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/005339_08932_25_14/Materials/005339_08932_25_14_unitedmat_33.mat using Guid(0125ed2924c504bd7bcce66299ca4fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1627a95a92d2bd763760bbfc02703b24') in 0.015424 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009915 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jem\Documents\GitHub\GDTVGameJam2022\TruckKun2\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jem\Documents\GitHub\GDTVGameJam2022\TruckKun2\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.377 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1378ms)
+		BeginReloadAssembly (174ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1053ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (384ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (437ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (275ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3370 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (80.4 KB). Loaded Objects now: 3889.
+Memory consumption went from 125.7 MB to 125.7 MB.
+Total: 4.365500 ms (FindLiveObjects: 0.334400 ms CreateObjectMapping: 0.267400 ms MarkObjects: 3.626900 ms  DeleteObjects: 0.135500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

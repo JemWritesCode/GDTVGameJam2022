@@ -6,7 +6,7 @@ using System.Linq;
 public class RoadSpawner : MonoBehaviour
 {
     public List<GameObject> roads;
-    private float offset = 5f;
+    private float offset = 15f;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +22,7 @@ public class RoadSpawner : MonoBehaviour
         GameObject movedRoad = roads[0];
         roads.Remove(movedRoad);
         float newZ = roads[roads.Count - 1].transform.position.z + offset;
-        movedRoad.transform.position = new Vector3(0, 0, newZ);
+        movedRoad.transform.localPosition = new Vector3(0, 0, newZ);
         roads.Add(movedRoad);
     }
 }
