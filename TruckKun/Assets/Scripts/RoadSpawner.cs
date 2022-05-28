@@ -6,7 +6,7 @@ using System.Linq;
 public class RoadSpawner : MonoBehaviour
 {
     public List<GameObject> roads;
-    private float offset = 15f;
+    private float offset = 37f;
 
     // Start is called before the first frame update
     void Start()

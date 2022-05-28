@@ -6,6 +6,7 @@ public class TestCharacterController : MonoBehaviour
 {
 
     [SerializeField] public float movementSpeed = 1f;
+    public float speedMultiplier = 1f; // Potentially have this go up over time to make the game harder.
     public SpawnManager spawnManager;
 
     // Start is called before the first frame update
@@ -18,7 +19,7 @@ public class TestCharacterController : MonoBehaviour
     void Update()
     {
         float hMovement = Input.GetAxis("Horizontal") * movementSpeed / 2;
-        float vMovement = Input.GetAxis("Vertical") * movementSpeed;
+        float vMovement = speedMultiplier * movementSpeed; // disable to Only let them move back and forth. move the map
         transform.Translate(new Vector3(hMovement, 0, vMovement) * Time.deltaTime);
     }
 
