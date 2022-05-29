@@ -6,6 +6,8 @@ TagManager:
   tags:
   - SpawnTrigger
   - WasTriggered
+  - MainC
+  - Obstacle
   layers:
   - Default
   - TransparentFX

@@ -382,6 +382,7 @@
 "Assets/Scripts/CameraControl.cs"
 "Assets/Scripts/ClickPlayButton.cs"
 "Assets/Scripts/ObstacleSpawner.cs"
+"Assets/Scripts/PlayerCollisionController.cs"
 "Assets/Scripts/PlotSpawner.cs"
 "Assets/Scripts/RoadSpawner.cs"
 "Assets/Scripts/SpawnManager.cs"

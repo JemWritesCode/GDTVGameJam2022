@@ -7,7 +7,7 @@ public class TestCharacterController : MonoBehaviour
 
     [SerializeField] public float movementSpeed = 1f;
     public float speedMultiplier = 1f; // Potentially have this go up over time to make the game harder.
-    public SpawnManager spawnManager;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -23,8 +23,4 @@ public class TestCharacterController : MonoBehaviour
         transform.Translate(new Vector3(hMovement, 0, vMovement) * Time.deltaTime);
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        spawnManager.SpawnTriggerEntered();
-    }
 }
