@@ -1256,7 +1256,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8983890121085220352, guid: d3b22f6efaa481249abe08354bf0b253, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8983890121085220352, guid: d3b22f6efaa481249abe08354bf0b253, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1434,14 +1434,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: -0.24801072, y: -0.16444021, z: 0.042711735, w: -0.9537431}
-  m_LocalPosition: {x: -2.782, y: 3.914, z: 8.95}
+  m_LocalRotation: {x: -0.26806068, y: -0.16350332, z: 0.046168674, w: -0.94830304}
+  m_LocalPosition: {x: -3.01, y: 4.38, z: 8.33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 31.568, y: 19.567, z: 0.006}
 --- !u!114 &963194229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1454,28 +1454,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6feee48e617d63498810717bfc09701, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xOffset: -2.782
-  yOffset: 3.914
-  zOffset: -2.632038
+  xOffset: -3.01
+  yOffset: 4.38
+  zOffset: -3.5
 --- !u!1 &989420566 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: e985a6d47f251464780287666d63a9bf, type: 3}
   m_PrefabInstance: {fileID: 276817553}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &989420570
-MeshCollider:
+--- !u!65 &989420574
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 989420566}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300004, guid: e985a6d47f251464780287666d63a9bf, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.16829132, y: 0.2904483, z: 0.44805855}
+  m_Center: {x: -0.004181238, y: 0.17877588, z: 0.052165374}
 --- !u!1 &1190358339
 GameObject:
   m_ObjectHideFlags: 0

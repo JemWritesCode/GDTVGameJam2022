@@ -32,15 +32,19 @@ public class PlayerCollisionController : MonoBehaviour
         }
         if(other.tag == "Obstacle")
         {
-            // Game Over
-            Debug.Log("Game Over - Loading next level.");
-            int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-            int nextSceneIndex = currentSceneIndex + 1;
-            SceneManager.LoadScene(nextSceneIndex);
+            GameOver();         
         }
         if(other.tag == "Normies")
         {
             Debug.Log("You hit a normal person. That's just murder.");
+            GameOver();
         }
+    }
+    private void GameOver()
+    {
+        Debug.Log("Game Over - Loading next level.");
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        int nextSceneIndex = currentSceneIndex + 1;
+        SceneManager.LoadScene(nextSceneIndex);
     }
 }
