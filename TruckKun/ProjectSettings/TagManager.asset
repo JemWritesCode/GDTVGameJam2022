@@ -8,6 +8,7 @@ TagManager:
   - WasTriggered
   - MainC
   - Obstacle
+  - Normies
   layers:
   - Default
   - TransparentFX

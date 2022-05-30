@@ -21,6 +21,11 @@ public class TestCharacterController : MonoBehaviour
         float hMovement = Input.GetAxis("Horizontal") * movementSpeed / 2;
         float vMovement = speedMultiplier * movementSpeed; // disable to Only let them move back and forth. move the map
         transform.Translate(new Vector3(hMovement, 0, vMovement) * Time.deltaTime);
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Debug.Log("Escaping button pressed, exiting game.");
+            Application.Quit();
+        }
     }
 
 }

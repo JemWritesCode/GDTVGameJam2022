@@ -618,6 +618,7 @@ GameObject:
   - component: {fileID: 7287973667590969991}
   - component: {fileID: 6516245958632051441}
   - component: {fileID: 332255754706528239}
+  - component: {fileID: 7333892217845963699}
   m_Layer: 0
   m_Name: ColliderRight
   m_TagString: Untagged
@@ -703,6 +704,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &7333892217845963699
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4072444498304241362}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 1
 --- !u!1 &4235907557414580360
 GameObject:
   m_ObjectHideFlags: 0
@@ -2985,6 +3002,7 @@ GameObject:
   - component: {fileID: 5059948628187618667}
   - component: {fileID: 7242763284172249481}
   - component: {fileID: 5408119329587921327}
+  - component: {fileID: 804486938384092150}
   m_Layer: 0
   m_Name: ColliderRight (1)
   m_TagString: Untagged
@@ -3070,6 +3088,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &804486938384092150
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8643456782364529281}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 1
 --- !u!1 &8649444740627675387
 GameObject:
   m_ObjectHideFlags: 0
