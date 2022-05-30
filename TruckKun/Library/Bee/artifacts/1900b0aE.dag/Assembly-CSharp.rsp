@@ -391,6 +391,7 @@
 "Assets/Scripts/Sound.cs"
 "Assets/Scripts/SpawnManager.cs"
 "Assets/Scripts/TestCharacterController.cs"
+"Assets/ShowMouseCursor.cs"
 -langversion:9.0
 
 /deterministic

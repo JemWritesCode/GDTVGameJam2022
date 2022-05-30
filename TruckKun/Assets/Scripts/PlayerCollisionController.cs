@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class PlayerCollisionController : MonoBehaviour
 {
     public MilesScore scoreManager;
@@ -32,7 +32,11 @@ public class PlayerCollisionController : MonoBehaviour
         }
         if(other.tag == "Obstacle")
         {
-            Debug.Log("You crashed the truck. Now you can't save anyone.");
+            // Game Over
+            Debug.Log("Game Over - Loading next level.");
+            int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+            int nextSceneIndex = currentSceneIndex + 1;
+            SceneManager.LoadScene(nextSceneIndex);
         }
         if(other.tag == "Normies")
         {
