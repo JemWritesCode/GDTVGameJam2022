@@ -26,7 +26,8 @@ public class PlayerCollisionController : MonoBehaviour
         {
                 other.tag = "MainCHit";
                 scoreManager.increaseHeroScore();
-                Destroy(other.gameObject);
+                Debug.Log("Attempting to destroy: " + other);
+                Destroy(other.gameObject); // todo: bug this ends up destroying the prefab before it can play the hit sound
         }
         if(other.tag == "SpawnTrigger") //For making more road
         {

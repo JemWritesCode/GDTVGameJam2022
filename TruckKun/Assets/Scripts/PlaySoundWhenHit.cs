@@ -18,8 +18,9 @@ public class PlaySoundWhenHit : MonoBehaviour
         //Debug.Log("Hit!");
         if(other.tag == "Player")
         {
-            //Debug.Log("Hit Player");
-            GetComponent<AudioSource>().Play();
+            Debug.Log("Player Hit " + other + "Playing Sound.");
+            //GetComponent<AudioSource>().Play();
+            AudioSource.PlayClipAtPoint(soundHit, other.ClosestPoint(other.transform.position));
         }
     }
 }
