@@ -22,7 +22,8 @@ public class SpawnManager : MonoBehaviour
 
     public void SpawnTriggerEntered()
     {
-        roadSpawner.MoveRoad();
+        roadSpawner.SpawnRoad();
+        //roadSpawner.MoveRoad();
         plotSpawner.SpawnPlot();
     }
 }
