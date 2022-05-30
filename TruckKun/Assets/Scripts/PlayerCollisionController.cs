@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 public class PlayerCollisionController : MonoBehaviour
 {
     public MilesScore scoreManager;
-
+    public GameManager gameManager;
     public SpawnManager spawnManager;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,8 +24,9 @@ public class PlayerCollisionController : MonoBehaviour
     {
         if (other.tag == "MainC")
         {
-            scoreManager.increaseHeroScore();
-            Destroy(other.gameObject);
+                other.tag = "MainCHit";
+                scoreManager.increaseHeroScore();
+                Destroy(other.gameObject);
         }
         if(other.tag == "SpawnTrigger") //For making more road
         {
@@ -32,19 +34,12 @@ public class PlayerCollisionController : MonoBehaviour
         }
         if(other.tag == "Obstacle")
         {
-            GameOver();         
+            gameManager.GameOver();
         }
         if(other.tag == "Normies")
         {
             Debug.Log("You hit a normal person. That's just murder.");
-            GameOver();
+            gameManager.GameOver();
         }
-    }
-    private void GameOver()
-    {
-        Debug.Log("Game Over - Loading next level.");
-        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        int nextSceneIndex = currentSceneIndex + 1;
-        SceneManager.LoadScene(nextSceneIndex);
     }
 }

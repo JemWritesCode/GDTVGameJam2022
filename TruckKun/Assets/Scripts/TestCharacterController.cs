@@ -12,7 +12,7 @@ public class TestCharacterController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -26,6 +26,12 @@ public class TestCharacterController : MonoBehaviour
             Debug.Log("Escaping button pressed, exiting game.");
             Application.Quit();
         }
+    }
+
+    public void StopTheTruck()
+    {
+        Debug.Log("Stopping the Truck.");
+        movementSpeed = 0;
     }
 
 }

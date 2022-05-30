@@ -9,6 +9,7 @@ TagManager:
   - MainC
   - Obstacle
   - Normies
+  - MainCHit
   layers:
   - Default
   - TransparentFX
