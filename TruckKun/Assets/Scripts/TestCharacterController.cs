@@ -18,7 +18,8 @@ public class TestCharacterController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float hMovement = Input.GetAxis("Horizontal") * movementSpeed / 2;
+        speedMultiplier += .0003f;
+        float hMovement = Input.GetAxis("Horizontal") * movementSpeed / 2 * speedMultiplier;
         float vMovement = speedMultiplier * movementSpeed; // disable to Only let them move back and forth. move the map
         transform.Translate(new Vector3(hMovement, 0, vMovement) * Time.deltaTime);
         if (Input.GetKeyDown(KeyCode.Escape))
