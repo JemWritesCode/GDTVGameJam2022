@@ -1,6 +1,7 @@
 # GDTVGameJam2022
 
 Play The Game on Itch: https://jemwritescode.itch.io/truck-kun-saves-the-worlds
+
 My submission for my first ever game jam. This is for the GameDev.tv 2022 Jam with the theme "Death is only the beginning". I had a 10 day time limit, so there are bugs and features I wish I had more time to implement. 
 
 ## About
