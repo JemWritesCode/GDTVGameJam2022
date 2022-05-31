@@ -6,12 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class GameOverScreen : MonoBehaviour
 {
-    //public Text pointsText;
-
     public void Setup()
     {
         gameObject.SetActive(true);
-        //pointsText.text = score.ToString() + " HEROES MADE";
     }
 
     public void RestartButton()

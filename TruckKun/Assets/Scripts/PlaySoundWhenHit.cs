@@ -4,10 +4,7 @@ using UnityEngine;
 
 public class PlaySoundWhenHit : MonoBehaviour
 {
-    // todo: For when the truck hits the MC. Not working rn. The clip does work if it's set to "Play on Awake" but not like this? It does reach Hit Player so maybe using audio wrong
-
     public AudioClip soundHit;
-    // Start is called before the first frame update
 
     void Start() {
         GetComponent<AudioSource>().clip = soundHit;
@@ -15,11 +12,9 @@ public class PlaySoundWhenHit : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        //Debug.Log("Hit!");
         if(other.tag == "Player")
         {
             Debug.Log("Player Hit " + other + "Playing Sound.");
-            //GetComponent<AudioSource>().Play();
             AudioSource.PlayClipAtPoint(soundHit, other.ClosestPoint(other.transform.position));
         }
     }

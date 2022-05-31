@@ -8,17 +8,6 @@ public class PlayerCollisionController : MonoBehaviour
     public GameManager gameManager;
     public SpawnManager spawnManager;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -27,7 +16,7 @@ public class PlayerCollisionController : MonoBehaviour
                 other.tag = "MainCHit";
                 scoreManager.increaseHeroScore();
                 Debug.Log("Attempting to destroy: " + other);
-                Destroy(other.gameObject); // todo: bug this ends up destroying the prefab before it can play the hit sound
+                Destroy(other.gameObject); 
         }
         if(other.tag == "SpawnTrigger") //For making more road
         {

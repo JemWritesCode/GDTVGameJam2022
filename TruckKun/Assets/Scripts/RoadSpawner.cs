@@ -9,24 +9,19 @@ public class RoadSpawner : MonoBehaviour
     private float offset = 37f;
     private float lastZPos = 158f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
     public void SpawnRoad()
     {
         GameObject theRoad = roads[Random.Range(0, roads.Count)];
 
         float zPos = lastZPos + offset;
 
-        Instantiate(theRoad, new Vector3(0, -3.29f, zPos), theRoad.transform.rotation);
+        GameObject newRoad = Instantiate(theRoad, new Vector3(0, -3.29f, zPos), theRoad.transform.rotation);
 
         lastZPos += offset;
     }
 
 
-    // The old version that moves the roads and deletes it behind you
+    // The old version that moves the roads and deletes it behind you. But it doesn't give variance it just moves the same road forward over and over
 
     //public List<GameObject> roads;
     //private float offset = 37f;

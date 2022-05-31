@@ -21,12 +21,6 @@ public class PlotSpawner : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void SpawnPlot()
     {
         GameObject plotLeft = plots[Random.Range(0, plots.Count)];

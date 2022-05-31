@@ -450,6 +450,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral3B8BDB03A361E2B4126E62E0CB6C289F3ADC9BB3
 IL2CPP_EXTERN_C String_t* _stringLiteral410E5346BCA8EE150FFD507311DD85789F2E171E;
 IL2CPP_EXTERN_C String_t* _stringLiteral455BE6C51A15F36C8D913F896775D15888AC8673;
 IL2CPP_EXTERN_C String_t* _stringLiteral48195396BCE0DC1D681E49AF2216D34FF07B2C7B;
+IL2CPP_EXTERN_C String_t* _stringLiteral495450B9689160364B4EF948C4EE3A0C16AD5C78;
 IL2CPP_EXTERN_C String_t* _stringLiteral4A261EB7E7319776625F5A015EA18053797E6890;
 IL2CPP_EXTERN_C String_t* _stringLiteral4BC4D61FC87F8A81B95466904F847291977D82C4;
 IL2CPP_EXTERN_C String_t* _stringLiteral4D1F2901A96AAC12DA5E6753531BFC6299273A62;
@@ -507,6 +508,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralAF3FFAB6FCC0759605F6CACF7D92DCE52B602DB1
 IL2CPP_EXTERN_C String_t* _stringLiteralAF8E649A3EF1AB74A43C9F88015FA68AC719215A;
 IL2CPP_EXTERN_C String_t* _stringLiteralAFCB38F037F5FFD9195B0826F7AEE82373DE4539;
 IL2CPP_EXTERN_C String_t* _stringLiteralB0F3EFB34B5BB26A1D0A3D4032611129C4ECC85C;
+IL2CPP_EXTERN_C String_t* _stringLiteralB599048D754817874A7382B174594B3CA630344B;
 IL2CPP_EXTERN_C String_t* _stringLiteralB7A67A4E62D11EFA70340CF8A5C0C995F47C9BEF;
 IL2CPP_EXTERN_C String_t* _stringLiteralB87001FDA2C12FE7218D140255FFB9153AAAC91C;
 IL2CPP_EXTERN_C String_t* _stringLiteralBB61CD73B87847118A72F96FE50B72C6B8712F56;
@@ -515,6 +517,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralBE3CD31F3C78BD6E062B6F2AE2A0947835EA7B42
 IL2CPP_EXTERN_C String_t* _stringLiteralC1A6B498EE300C7141D6E1D9DD0C3AA2B3D6DF1C;
 IL2CPP_EXTERN_C String_t* _stringLiteralC3AD0C4052F486E1F58F58CB348446B07981A9B0;
 IL2CPP_EXTERN_C String_t* _stringLiteralC473046B41946A22C532AEFD1B4D486A028D183C;
+IL2CPP_EXTERN_C String_t* _stringLiteralC4BD577A7BAF23020149EBD1F6142DA63E458A44;
 IL2CPP_EXTERN_C String_t* _stringLiteralC514369F46968F445013C4FE7EC0DC81DFD6B438;
 IL2CPP_EXTERN_C String_t* _stringLiteralC6ABDF651D503AD0DA9076BCE8722B9F6676BC64;
 IL2CPP_EXTERN_C String_t* _stringLiteralCAF8804297181FF007CA835529DD4477CFD94A70;
@@ -4124,16 +4127,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestCharacterController_StopTheTruck_m89
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverScreen_Setup_mEE89B10B88CE301210BC566928357D086840A1E1 (GameOverScreen_tE2FFC44C857E646C708DDD3067BB17428E8C670E* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.MonoBehaviour::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
-// UnityEngine.GameObject UnityEngine.Component::get_gameObject()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
-// System.Void UnityEngine.GameObject::SetActive(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___value0, const RuntimeMethod* method) ;
-// UnityEngine.SceneManagement.Scene UnityEngine.SceneManagement.SceneManager::GetActiveScene()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Scene_tA1DC762B79745EB5140F054C884855B922318356 SceneManager_GetActiveScene_m2DB2A1ACB84805968A4B6396BFDFB92C0AF32BCE (const RuntimeMethod* method) ;
-// System.Int32 UnityEngine.SceneManagement.Scene::get_buildIndex()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Scene_get_buildIndex_m82B6E0C96C85C952B7A2D794DB73CDA99AA9A57E (Scene_tA1DC762B79745EB5140F054C884855B922318356* __this, const RuntimeMethod* method) ;
-// System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_mE00D17D79AD74B307F913BBF296A36115548DB6D (int32_t ___sceneBuildIndex0, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<GenericBehaviour>::.ctor()
 inline void List_1__ctor_mA479148E24D478DC1EF8F0447E1EC36BB3B57A32 (List_1_tE7009675822D9B7389735AEEBC6F79057AEB7D7C* __this, const RuntimeMethod* method)
 {
@@ -4430,6 +4423,8 @@ inline Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* GameObject_GetComponent_
 }
 // System.Void UnityEngine.Light::set_intensity(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Light_set_intensity_mE4820C7F39F490B92ED5EA0C3AADA7C0775BE854 (Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* __this, float ___value0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.GameObject::SetActive(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___value0, const RuntimeMethod* method) ;
 // System.Void AmbientController::changeShadow(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AmbientController_changeShadow_m9A9B6F7F612012CE3FB37BB825321F6F9B092843 (AmbientController_tCD3C45940CE55ACA5BA75A303A26EAC9B2F1FEAB* __this, bool ___shadowOn0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Light::set_shadows(UnityEngine.LightShadows)
@@ -4677,22 +4672,22 @@ inline AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* Component_GetCompo
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.AudioSource::PlayOneShot(UnityEngine.AudioClip)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_PlayOneShot_m098BCAE084AABB128BB19ED805D2D985E7B75112 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___clip0, const RuntimeMethod* method) ;
-// System.Void UnityEngine.AudioSource::set_clip(UnityEngine.AudioClip)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___value0, const RuntimeMethod* method) ;
-// System.String UnityEngine.Component::get_tag()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Component_get_tag_m7561A81116CAB82B8A459E934662BFC2039FB7EF (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
-// System.Boolean System.String::op_Equality(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0 (String_t* ___a0, String_t* ___b1, const RuntimeMethod* method) ;
-// System.Void UnityEngine.AudioSource::Play()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, const RuntimeMethod* method) ;
 // UnityEngine.GameObject UnityEngine.GameObject::Find(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GameObject_Find_mFF1D6C65A7E2CD82443F4DCE4C53472FB30B7F51 (String_t* ___name0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Debug::Log(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219 (RuntimeObject* ___message0, const RuntimeMethod* method) ;
 // System.Void ClickPlayButton::LoadNextLevel()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClickPlayButton_LoadNextLevel_m3C61ADEB4BE3206410A2F3228FCA43188C5827FA (ClickPlayButton_t8BF86C0AC2D8EADCDDCA095BE3A9E1D2E3156B2B* __this, const RuntimeMethod* method) ;
+// UnityEngine.SceneManagement.Scene UnityEngine.SceneManagement.SceneManager::GetActiveScene()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Scene_tA1DC762B79745EB5140F054C884855B922318356 SceneManager_GetActiveScene_m2DB2A1ACB84805968A4B6396BFDFB92C0AF32BCE (const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.SceneManagement.Scene::get_buildIndex()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Scene_get_buildIndex_m82B6E0C96C85C952B7A2D794DB73CDA99AA9A57E (Scene_tA1DC762B79745EB5140F054C884855B922318356* __this, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.SceneManagement.SceneManager::get_sceneCountInBuildSettings()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SceneManager_get_sceneCountInBuildSettings_m7C49222A2A771B11C1CAD7D743BDDF8F8F39E685 (const RuntimeMethod* method) ;
+// System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_mE00D17D79AD74B307F913BBF296A36115548DB6D (int32_t ___sceneBuildIndex0, const RuntimeMethod* method) ;
+// UnityEngine.GameObject UnityEngine.Component::get_gameObject()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 // System.Double System.Math::Round(System.Double,System.Int32)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double Math_Round_mAE7072AE69091258FAA8BD5923CE4A0E492B5B7D_inline (double ___value0, int32_t ___digits1, const RuntimeMethod* method) ;
 // System.String System.Double::ToString()
@@ -4716,6 +4711,10 @@ inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Object_Instantiate_
 {
 	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974, const RuntimeMethod*))Object_Instantiate_TisRuntimeObject_m2A2DD50EC8EB54C91AF71E02DFD6969174D82B08_gshared)(___original0, ___position1, ___rotation2, method);
 }
+// System.String UnityEngine.Component::get_tag()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Component_get_tag_m7561A81116CAB82B8A459E934662BFC2039FB7EF (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+// System.Boolean System.String::op_Equality(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0 (String_t* ___a0, String_t* ___b1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Component::set_tag(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Component_set_tag_mAF8B6EC052F8AA67088F1841B57EA37F13D0451E (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, String_t* ___value0, const RuntimeMethod* method) ;
 // System.Void MilesScore::increaseHeroScore()
@@ -4726,6 +4725,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mFCDAE6333522488F60597AF0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpawnManager_SpawnTriggerEntered_m407027FDA4F12687660914EE0479C708554FFD93 (SpawnManager_tD38605BF221D4CC849CF709A85499D2B698FD6FC* __this, const RuntimeMethod* method) ;
 // System.Void GameManager::GameOver()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_GameOver_mF1BD400E7F84A0B533A58E80ADA7CCB89C964625 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.AudioSource::set_clip(UnityEngine.AudioClip)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___value0, const RuntimeMethod* method) ;
+// System.String System.String::Concat(System.String,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0 (String_t* ___str00, String_t* ___str11, String_t* ___str22, const RuntimeMethod* method) ;
+// UnityEngine.Vector3 UnityEngine.Collider::ClosestPoint(UnityEngine.Vector3)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Collider_ClosestPoint_mFFF9B6F6CF9F18B22B325835A3E2E78A1C03BFCB (Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.AudioSource::PlayClipAtPoint(UnityEngine.AudioClip,UnityEngine.Vector3)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_PlayClipAtPoint_mDF9531618C28411888855FD6B4B58F315083B8AC (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___clip0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position1, const RuntimeMethod* method) ;
 // System.Void PlotSpawner::SpawnPlot()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlotSpawner_SpawnPlot_m9769E74374218216A95883092EE265C2A0D479D2 (PlotSpawner_t2BA84D6E5AB1BB097A3FB863852F76D3E125B43B* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Quaternion::.ctor(System.Single,System.Single,System.Single,System.Single)
@@ -4989,76 +4996,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Update_m7F29D8E933B8D21D2E67
 }
 // System.Void GameManager::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
-{
-	{
-		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void GameOverScreen::Setup()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverScreen_Setup_mEE89B10B88CE301210BC566928357D086840A1E1 (GameOverScreen_tE2FFC44C857E646C708DDD3067BB17428E8C670E* __this, const RuntimeMethod* method) 
-{
-	{
-		// gameObject.SetActive(true);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
-		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
-		// }
-		return;
-	}
-}
-// System.Void GameOverScreen::RestartButton()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverScreen_RestartButton_m5AA1EEADBACE674076413DF326CBED43654A98F1 (GameOverScreen_tE2FFC44C857E646C708DDD3067BB17428E8C670E* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Scene_tA1DC762B79745EB5140F054C884855B922318356 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		// int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
-		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_0;
-		L_0 = SceneManager_GetActiveScene_m2DB2A1ACB84805968A4B6396BFDFB92C0AF32BCE(NULL);
-		V_0 = L_0;
-		int32_t L_1;
-		L_1 = Scene_get_buildIndex_m82B6E0C96C85C952B7A2D794DB73CDA99AA9A57E((&V_0), NULL);
-		// SceneManager.LoadScene(currentSceneIndex);
-		SceneManager_LoadScene_mE00D17D79AD74B307F913BBF296A36115548DB6D(L_1, NULL);
-		// }
-		return;
-	}
-}
-// System.Void GameOverScreen::ExitButton()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverScreen_ExitButton_mE985D66F3DF66C66842CF10599413454B3BCED8B (GameOverScreen_tE2FFC44C857E646C708DDD3067BB17428E8C670E* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// SceneManager.LoadScene(0);
-		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
-		SceneManager_LoadScene_mE00D17D79AD74B307F913BBF296A36115548DB6D(0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void GameOverScreen::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverScreen__ctor_mC5150146F14E85405429254671C40F23C5BD9F20 (GameOverScreen_tE2FFC44C857E646C708DDD3067BB17428E8C670E* __this, const RuntimeMethod* method) 
 {
 	{
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
@@ -13337,76 +13274,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QuerySoundController__ctor_m0A6437D80F70
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void PlaySoundWhenHit::Start()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlaySoundWhenHit_Start_m1B3D374A29965E71AD2804CE7F96D034B1EF3C53 (PlaySoundWhenHit_t440767DD8C52C0C177B1821DFF775898F0A6473D* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m42DA4DEA19EB60D80CBED7413ADEB27FA033C77B_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// GetComponent<AudioSource>().clip = soundHit;
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0;
-		L_0 = Component_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m42DA4DEA19EB60D80CBED7413ADEB27FA033C77B(__this, Component_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m42DA4DEA19EB60D80CBED7413ADEB27FA033C77B_RuntimeMethod_var);
-		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_1 = __this->___soundHit_4;
-		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_0, L_1, NULL);
-		// }
-		return;
-	}
-}
-// System.Void PlaySoundWhenHit::OnTriggerEnter(UnityEngine.Collider)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlaySoundWhenHit_OnTriggerEnter_m5D10B57E537FB835628C18DD8F179FC56EAC197D (PlaySoundWhenHit_t440767DD8C52C0C177B1821DFF775898F0A6473D* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___other0, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m42DA4DEA19EB60D80CBED7413ADEB27FA033C77B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCAF8804297181FF007CA835529DD4477CFD94A70);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// if(other.tag == "Player")
-		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_0 = ___other0;
-		String_t* L_1;
-		L_1 = Component_get_tag_m7561A81116CAB82B8A459E934662BFC2039FB7EF(L_0, NULL);
-		bool L_2;
-		L_2 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_1, _stringLiteralCAF8804297181FF007CA835529DD4477CFD94A70, NULL);
-		if (!L_2)
-		{
-			goto IL_001d;
-		}
-	}
-	{
-		// GetComponent<AudioSource>().Play();
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_3;
-		L_3 = Component_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m42DA4DEA19EB60D80CBED7413ADEB27FA033C77B(__this, Component_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m42DA4DEA19EB60D80CBED7413ADEB27FA033C77B_RuntimeMethod_var);
-		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_3, NULL);
-	}
-
-IL_001d:
-	{
-		// }
-		return;
-	}
-}
-// System.Void PlaySoundWhenHit::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlaySoundWhenHit__ctor_m1C1C2B17DF5D42A07E2439E3A1AF248F77A86EFC (PlaySoundWhenHit_t440767DD8C52C0C177B1821DFF775898F0A6473D* __this, const RuntimeMethod* method) 
-{
-	{
-		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 // System.Void AudioManager::Start()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_Start_m3C0FEAF19F58B6D28A9E6D815B3AAF94FEA21B69 (AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B* __this, const RuntimeMethod* method) 
 {
@@ -13595,6 +13462,76 @@ IL_0024:
 }
 // System.Void ClickPlayButton::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClickPlayButton__ctor_m52780C18A1526F6A3420521E18091A4A48E65901 (ClickPlayButton_t8BF86C0AC2D8EADCDDCA095BE3A9E1D2E3156B2B* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void GameOverScreen::Setup()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverScreen_Setup_mEE89B10B88CE301210BC566928357D086840A1E1 (GameOverScreen_tE2FFC44C857E646C708DDD3067BB17428E8C670E* __this, const RuntimeMethod* method) 
+{
+	{
+		// gameObject.SetActive(true);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
+		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
+		// }
+		return;
+	}
+}
+// System.Void GameOverScreen::RestartButton()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverScreen_RestartButton_m5AA1EEADBACE674076413DF326CBED43654A98F1 (GameOverScreen_tE2FFC44C857E646C708DDD3067BB17428E8C670E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Scene_tA1DC762B79745EB5140F054C884855B922318356 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_0;
+		L_0 = SceneManager_GetActiveScene_m2DB2A1ACB84805968A4B6396BFDFB92C0AF32BCE(NULL);
+		V_0 = L_0;
+		int32_t L_1;
+		L_1 = Scene_get_buildIndex_m82B6E0C96C85C952B7A2D794DB73CDA99AA9A57E((&V_0), NULL);
+		// SceneManager.LoadScene(currentSceneIndex);
+		SceneManager_LoadScene_mE00D17D79AD74B307F913BBF296A36115548DB6D(L_1, NULL);
+		// }
+		return;
+	}
+}
+// System.Void GameOverScreen::ExitButton()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverScreen_ExitButton_mE985D66F3DF66C66842CF10599413454B3BCED8B (GameOverScreen_tE2FFC44C857E646C708DDD3067BB17428E8C670E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// SceneManager.LoadScene(0);
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mE00D17D79AD74B307F913BBF296A36115548DB6D(0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void GameOverScreen::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverScreen__ctor_mC5150146F14E85405429254671C40F23C5BD9F20 (GameOverScreen_tE2FFC44C857E646C708DDD3067BB17428E8C670E* __this, const RuntimeMethod* method) 
 {
 	{
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
@@ -13830,6 +13767,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerCollisionController_OnTriggerEnter
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0450435061BA4676E3A0F7604B987B91183113A2);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral495450B9689160364B4EF948C4EE3A0C16AD5C78);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral62A7C2018A0EEF99A0B25D33E06BDD862A22C81E);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7262B83E61C3F9B0896E0C0C024885003C4DEC6A);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA1C7CC3C849FA113EDB8E64D9BE8DC575AC4DF97);
@@ -13837,6 +13775,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerCollisionController_OnTriggerEnter
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDDB91D5B0BDD1824A4CC18C279F4CF0A96D4A900);
 		s_Il2CppMethodInitialized = true;
 	}
+	Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* G_B3_0 = NULL;
+	String_t* G_B3_1 = NULL;
+	Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* G_B2_0 = NULL;
+	String_t* G_B2_1 = NULL;
+	String_t* G_B4_0 = NULL;
+	String_t* G_B4_1 = NULL;
 	{
 		// if (other.tag == "MainC")
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_0 = ___other0;
@@ -13846,7 +13790,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerCollisionController_OnTriggerEnter
 		L_2 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_1, _stringLiteralA1C7CC3C849FA113EDB8E64D9BE8DC575AC4DF97, NULL);
 		if (!L_2)
 		{
-			goto IL_0033;
+			goto IL_004f;
 		}
 	}
 	{
@@ -13856,63 +13800,95 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerCollisionController_OnTriggerEnter
 		// scoreManager.increaseHeroScore();
 		MilesScore_t98F034B11807E60E27E160EA51A1AC480592D695* L_4 = __this->___scoreManager_4;
 		MilesScore_increaseHeroScore_mC4721F89DFE859360D6758658AF582CA6C734A16(L_4, NULL);
-		// Destroy(other.gameObject);
+		// Debug.Log("Attempting to destroy: " + other);
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_5 = ___other0;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
-		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_5, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		Object_Destroy_mFCDAE6333522488F60597AF019EA90BB1207A5AA(L_6, NULL);
-	}
-
-IL_0033:
-	{
-		// if(other.tag == "SpawnTrigger") //For making more road
-		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_7 = ___other0;
-		String_t* L_8;
-		L_8 = Component_get_tag_m7561A81116CAB82B8A459E934662BFC2039FB7EF(L_7, NULL);
-		bool L_9;
-		L_9 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_8, _stringLiteral62A7C2018A0EEF99A0B25D33E06BDD862A22C81E, NULL);
-		if (!L_9)
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_6 = L_5;
+		G_B2_0 = L_6;
+		G_B2_1 = _stringLiteral495450B9689160364B4EF948C4EE3A0C16AD5C78;
+		if (L_6)
 		{
-			goto IL_0050;
+			G_B3_0 = L_6;
+			G_B3_1 = _stringLiteral495450B9689160364B4EF948C4EE3A0C16AD5C78;
+			goto IL_0035;
 		}
 	}
 	{
-		// spawnManager.SpawnTriggerEntered();
-		SpawnManager_tD38605BF221D4CC849CF709A85499D2B698FD6FC* L_10 = __this->___spawnManager_6;
-		SpawnManager_SpawnTriggerEntered_m407027FDA4F12687660914EE0479C708554FFD93(L_10, NULL);
+		G_B4_0 = ((String_t*)(NULL));
+		G_B4_1 = G_B2_1;
+		goto IL_003a;
 	}
 
-IL_0050:
+IL_0035:
 	{
-		// if(other.tag == "Obstacle")
+		String_t* L_7;
+		L_7 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, G_B3_0);
+		G_B4_0 = L_7;
+		G_B4_1 = G_B3_1;
+	}
+
+IL_003a:
+	{
+		String_t* L_8;
+		L_8 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(G_B4_1, G_B4_0, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(L_8, NULL);
+		// Destroy(other.gameObject); // todo: bug this ends up destroying the prefab before it can play the hit sound
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_9 = ___other0;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
+		L_10 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_9, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mFCDAE6333522488F60597AF019EA90BB1207A5AA(L_10, NULL);
+	}
+
+IL_004f:
+	{
+		// if(other.tag == "SpawnTrigger") //For making more road
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_11 = ___other0;
 		String_t* L_12;
 		L_12 = Component_get_tag_m7561A81116CAB82B8A459E934662BFC2039FB7EF(L_11, NULL);
 		bool L_13;
-		L_13 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_12, _stringLiteralDDB91D5B0BDD1824A4CC18C279F4CF0A96D4A900, NULL);
+		L_13 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_12, _stringLiteral62A7C2018A0EEF99A0B25D33E06BDD862A22C81E, NULL);
 		if (!L_13)
 		{
-			goto IL_006d;
+			goto IL_006c;
 		}
 	}
 	{
-		// gameManager.GameOver();
-		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_14 = __this->___gameManager_5;
-		GameManager_GameOver_mF1BD400E7F84A0B533A58E80ADA7CCB89C964625(L_14, NULL);
+		// spawnManager.SpawnTriggerEntered();
+		SpawnManager_tD38605BF221D4CC849CF709A85499D2B698FD6FC* L_14 = __this->___spawnManager_6;
+		SpawnManager_SpawnTriggerEntered_m407027FDA4F12687660914EE0479C708554FFD93(L_14, NULL);
 	}
 
-IL_006d:
+IL_006c:
 	{
-		// if(other.tag == "Normies")
+		// if(other.tag == "Obstacle")
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_15 = ___other0;
 		String_t* L_16;
 		L_16 = Component_get_tag_m7561A81116CAB82B8A459E934662BFC2039FB7EF(L_15, NULL);
 		bool L_17;
-		L_17 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_16, _stringLiteralD6E9EED9598E5C35C85EF119EADD2A9D7421B45E, NULL);
+		L_17 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_16, _stringLiteralDDB91D5B0BDD1824A4CC18C279F4CF0A96D4A900, NULL);
 		if (!L_17)
 		{
-			goto IL_0094;
+			goto IL_0089;
+		}
+	}
+	{
+		// gameManager.GameOver();
+		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_18 = __this->___gameManager_5;
+		GameManager_GameOver_mF1BD400E7F84A0B533A58E80ADA7CCB89C964625(L_18, NULL);
+	}
+
+IL_0089:
+	{
+		// if(other.tag == "Normies")
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_19 = ___other0;
+		String_t* L_20;
+		L_20 = Component_get_tag_m7561A81116CAB82B8A459E934662BFC2039FB7EF(L_19, NULL);
+		bool L_21;
+		L_21 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_20, _stringLiteralD6E9EED9598E5C35C85EF119EADD2A9D7421B45E, NULL);
+		if (!L_21)
+		{
+			goto IL_00b0;
 		}
 	}
 	{
@@ -13920,11 +13896,11 @@ IL_006d:
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral0450435061BA4676E3A0F7604B987B91183113A2, NULL);
 		// gameManager.GameOver();
-		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_18 = __this->___gameManager_5;
-		GameManager_GameOver_mF1BD400E7F84A0B533A58E80ADA7CCB89C964625(L_18, NULL);
+		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_22 = __this->___gameManager_5;
+		GameManager_GameOver_mF1BD400E7F84A0B533A58E80ADA7CCB89C964625(L_22, NULL);
 	}
 
-IL_0094:
+IL_00b0:
 	{
 		// }
 		return;
@@ -13932,6 +13908,123 @@ IL_0094:
 }
 // System.Void PlayerCollisionController::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerCollisionController__ctor_m2E0B45B3CBB4FD81E1DFC5803149D77A9A322D64 (PlayerCollisionController_tF349ECA38072FBCE08397A85B6D7064AC05520CB* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void PlaySoundWhenHit::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlaySoundWhenHit_Start_m1B3D374A29965E71AD2804CE7F96D034B1EF3C53 (PlaySoundWhenHit_t440767DD8C52C0C177B1821DFF775898F0A6473D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m42DA4DEA19EB60D80CBED7413ADEB27FA033C77B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// GetComponent<AudioSource>().clip = soundHit;
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0;
+		L_0 = Component_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m42DA4DEA19EB60D80CBED7413ADEB27FA033C77B(__this, Component_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m42DA4DEA19EB60D80CBED7413ADEB27FA033C77B_RuntimeMethod_var);
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_1 = __this->___soundHit_4;
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_0, L_1, NULL);
+		// }
+		return;
+	}
+}
+// System.Void PlaySoundWhenHit::OnTriggerEnter(UnityEngine.Collider)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlaySoundWhenHit_OnTriggerEnter_m5D10B57E537FB835628C18DD8F179FC56EAC197D (PlaySoundWhenHit_t440767DD8C52C0C177B1821DFF775898F0A6473D* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___other0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB599048D754817874A7382B174594B3CA630344B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC4BD577A7BAF23020149EBD1F6142DA63E458A44);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCAF8804297181FF007CA835529DD4477CFD94A70);
+		s_Il2CppMethodInitialized = true;
+	}
+	Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* G_B3_0 = NULL;
+	String_t* G_B3_1 = NULL;
+	Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* G_B2_0 = NULL;
+	String_t* G_B2_1 = NULL;
+	String_t* G_B4_0 = NULL;
+	String_t* G_B4_1 = NULL;
+	{
+		// if(other.tag == "Player")
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_0 = ___other0;
+		String_t* L_1;
+		L_1 = Component_get_tag_m7561A81116CAB82B8A459E934662BFC2039FB7EF(L_0, NULL);
+		bool L_2;
+		L_2 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_1, _stringLiteralCAF8804297181FF007CA835529DD4477CFD94A70, NULL);
+		if (!L_2)
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		// Debug.Log("Player Hit " + other + "Playing Sound.");
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_3 = ___other0;
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_4 = L_3;
+		G_B2_0 = L_4;
+		G_B2_1 = _stringLiteralC4BD577A7BAF23020149EBD1F6142DA63E458A44;
+		if (L_4)
+		{
+			G_B3_0 = L_4;
+			G_B3_1 = _stringLiteralC4BD577A7BAF23020149EBD1F6142DA63E458A44;
+			goto IL_001f;
+		}
+	}
+	{
+		G_B4_0 = ((String_t*)(NULL));
+		G_B4_1 = G_B2_1;
+		goto IL_0024;
+	}
+
+IL_001f:
+	{
+		String_t* L_5;
+		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, G_B3_0);
+		G_B4_0 = L_5;
+		G_B4_1 = G_B3_1;
+	}
+
+IL_0024:
+	{
+		String_t* L_6;
+		L_6 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(G_B4_1, G_B4_0, _stringLiteralB599048D754817874A7382B174594B3CA630344B, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(L_6, NULL);
+		// AudioSource.PlayClipAtPoint(soundHit, other.ClosestPoint(other.transform.position));
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_7 = __this->___soundHit_4;
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_8 = ___other0;
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_9 = ___other0;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
+		L_10 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_9, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_10, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		L_12 = Collider_ClosestPoint_mFFF9B6F6CF9F18B22B325835A3E2E78A1C03BFCB(L_8, L_11, NULL);
+		AudioSource_PlayClipAtPoint_mDF9531618C28411888855FD6B4B58F315083B8AC(L_7, L_12, NULL);
+	}
+
+IL_004f:
+	{
+		// }
+		return;
+	}
+}
+// System.Void PlaySoundWhenHit::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlaySoundWhenHit__ctor_m1C1C2B17DF5D42A07E2439E3A1AF248F77A86EFC (PlaySoundWhenHit_t440767DD8C52C0C177B1821DFF775898F0A6473D* __this, const RuntimeMethod* method) 
 {
 	{
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
@@ -14166,6 +14259,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoadSpawner__ctor_mA336687CD14D8E177766B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void ShowMouseCursor::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShowMouseCursor_Start_m56ED262213521A2D31DBD92F983299477DB6E719 (ShowMouseCursor_tEF57C0A22A031EFB28C50664576E203AB9D1C0C8* __this, const RuntimeMethod* method) 
+{
+	{
+		// Cursor.visible = true;
+		Cursor_set_visible_mC2A804ADF7411AC885923A2E9F3108BCC85C1AE4((bool)1, NULL);
+		// Cursor.lockState = CursorLockMode.None;
+		Cursor_set_lockState_m5CA1C31AF58CE2CDFD4F6999B4F42C9D0DF8A99D(0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void ShowMouseCursor::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShowMouseCursor_Update_m1618C193094C46F4D5FB9A0141748B58C5A7D9C2 (ShowMouseCursor_tEF57C0A22A031EFB28C50664576E203AB9D1C0C8* __this, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void ShowMouseCursor::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShowMouseCursor__ctor_m2B81E2D8A6102F1A2337A6484F3AC4D1D04BA057 (ShowMouseCursor_tEF57C0A22A031EFB28C50664576E203AB9D1C0C8* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void Sound::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sound__ctor_m5DD7C9F71B98D5670BBDD05F6D6FCDF43DC9EA8F (Sound_t06FB644265ECCFDDC2E12D87F6111B3760FC17A0* __this, const RuntimeMethod* method) 
 {
@@ -14267,34 +14396,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestCharacterController_Update_mB12DBF0C
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	{
-		// float hMovement = Input.GetAxis("Horizontal") * movementSpeed / 2;
-		float L_0;
-		L_0 = Input_GetAxis_m1F49B26F24032F45FB4583C95FB24E6771A161D4(_stringLiteral7F8C014BD4810CC276D0F9F81A1E759C7B098B1E, NULL);
-		float L_1 = __this->___movementSpeed_4;
-		V_0 = ((float)(((float)il2cpp_codegen_multiply(L_0, L_1))/(2.0f)));
+		// speedMultiplier += .0003f;
+		float L_0 = __this->___speedMultiplier_5;
+		__this->___speedMultiplier_5 = ((float)il2cpp_codegen_add(L_0, (0.000300000014f)));
+		// float hMovement = Input.GetAxis("Horizontal") * movementSpeed / 2 * speedMultiplier;
+		float L_1;
+		L_1 = Input_GetAxis_m1F49B26F24032F45FB4583C95FB24E6771A161D4(_stringLiteral7F8C014BD4810CC276D0F9F81A1E759C7B098B1E, NULL);
+		float L_2 = __this->___movementSpeed_4;
+		float L_3 = __this->___speedMultiplier_5;
+		V_0 = ((float)il2cpp_codegen_multiply(((float)(((float)il2cpp_codegen_multiply(L_1, L_2))/(2.0f))), L_3));
 		// float vMovement = speedMultiplier * movementSpeed; // disable to Only let them move back and forth. move the map
-		float L_2 = __this->___speedMultiplier_5;
-		float L_3 = __this->___movementSpeed_4;
-		V_1 = ((float)il2cpp_codegen_multiply(L_2, L_3));
+		float L_4 = __this->___speedMultiplier_5;
+		float L_5 = __this->___movementSpeed_4;
+		V_1 = ((float)il2cpp_codegen_multiply(L_4, L_5));
 		// transform.Translate(new Vector3(hMovement, 0, vMovement) * Time.deltaTime);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
-		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		float L_5 = V_0;
-		float L_6 = V_1;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
-		memset((&L_7), 0, sizeof(L_7));
-		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_7), L_5, (0.0f), L_6, /*hidden argument*/NULL);
-		float L_8;
-		L_8 = Time_get_deltaTime_m7AB6BFA101D83E1D8F2EF3D5A128AEE9DDBF1A6D(NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
+		L_6 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		float L_7 = V_0;
+		float L_8 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
-		L_9 = Vector3_op_Multiply_m516FE285F5342F922C6EB3FCB33197E9017FF484_inline(L_7, L_8, NULL);
-		Transform_Translate_m018D015E89C8CB743C54A21B4A1C5202EBF6297A(L_4, L_9, NULL);
+		memset((&L_9), 0, sizeof(L_9));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_9), L_7, (0.0f), L_8, /*hidden argument*/NULL);
+		float L_10;
+		L_10 = Time_get_deltaTime_m7AB6BFA101D83E1D8F2EF3D5A128AEE9DDBF1A6D(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Vector3_op_Multiply_m516FE285F5342F922C6EB3FCB33197E9017FF484_inline(L_9, L_10, NULL);
+		Transform_Translate_m018D015E89C8CB743C54A21B4A1C5202EBF6297A(L_6, L_11, NULL);
 		// if (Input.GetKeyDown(KeyCode.Escape))
-		bool L_10;
-		L_10 = Input_GetKeyDown_m0D59B7EBC3A782C9FBBF107FBCD4B72B38D993B3(((int32_t)27), NULL);
-		if (!L_10)
+		bool L_12;
+		L_12 = Input_GetKeyDown_m0D59B7EBC3A782C9FBBF107FBCD4B72B38D993B3(((int32_t)27), NULL);
+		if (!L_12)
 		{
-			goto IL_005f;
+			goto IL_0078;
 		}
 	}
 	{
@@ -14305,7 +14438,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestCharacterController_Update_mB12DBF0C
 		Application_Quit_m965C6D4CA85A24DD95B347D22837074F19C58134(NULL);
 	}
 
-IL_005f:
+IL_0078:
 	{
 		// }
 		return;
@@ -14339,42 +14472,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestCharacterController__ctor_mB934F120E
 		__this->___movementSpeed_4 = (1.0f);
 		// public float speedMultiplier = 1f; // Potentially have this go up over time to make the game harder.
 		__this->___speedMultiplier_5 = (1.0f);
-		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void ShowMouseCursor::Start()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShowMouseCursor_Start_m56ED262213521A2D31DBD92F983299477DB6E719 (ShowMouseCursor_tEF57C0A22A031EFB28C50664576E203AB9D1C0C8* __this, const RuntimeMethod* method) 
-{
-	{
-		// Cursor.visible = true;
-		Cursor_set_visible_mC2A804ADF7411AC885923A2E9F3108BCC85C1AE4((bool)1, NULL);
-		// Cursor.lockState = CursorLockMode.None;
-		Cursor_set_lockState_m5CA1C31AF58CE2CDFD4F6999B4F42C9D0DF8A99D(0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void ShowMouseCursor::Update()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShowMouseCursor_Update_m1618C193094C46F4D5FB9A0141748B58C5A7D9C2 (ShowMouseCursor_tEF57C0A22A031EFB28C50664576E203AB9D1C0C8* __this, const RuntimeMethod* method) 
-{
-	{
-		// }
-		return;
-	}
-}
-// System.Void ShowMouseCursor::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShowMouseCursor__ctor_m2B81E2D8A6102F1A2337A6484F3AC4D1D04BA057 (ShowMouseCursor_tEF57C0A22A031EFB28C50664576E203AB9D1C0C8* __this, const RuntimeMethod* method) 
-{
-	{
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}

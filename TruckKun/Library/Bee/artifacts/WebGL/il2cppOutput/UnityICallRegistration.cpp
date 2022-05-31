@@ -260,6 +260,14 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.AsyncOperation
 
+	//Start Registrations for type : UnityEngine.AudioClip
+
+		//System.Single UnityEngine.AudioClip::get_length()
+		void Register_UnityEngine_AudioClip_get_length();
+		Register_UnityEngine_AudioClip_get_length();
+
+	//End Registrations for type : UnityEngine.AudioClip
+
 	//Start Registrations for type : UnityEngine.AudioSource
 
 		//System.Void UnityEngine.AudioSource::PlayHelper(UnityEngine.AudioSource,System.UInt64)
@@ -277,6 +285,14 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.AudioSource::set_clip(UnityEngine.AudioClip)
 		void Register_UnityEngine_AudioSource_set_clip();
 		Register_UnityEngine_AudioSource_set_clip();
+
+		//System.Void UnityEngine.AudioSource::set_spatialBlend(System.Single)
+		void Register_UnityEngine_AudioSource_set_spatialBlend();
+		Register_UnityEngine_AudioSource_set_spatialBlend();
+
+		//System.Void UnityEngine.AudioSource::set_volume(System.Single)
+		void Register_UnityEngine_AudioSource_set_volume();
+		Register_UnityEngine_AudioSource_set_volume();
 
 	//End Registrations for type : UnityEngine.AudioSource
 
@@ -641,6 +657,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Boolean UnityEngine.Collider::get_isTrigger()
 		void Register_UnityEngine_Collider_get_isTrigger();
 		Register_UnityEngine_Collider_get_isTrigger();
+
+		//System.Void UnityEngine.Collider::ClosestPoint_Injected(UnityEngine.Vector3&,UnityEngine.Vector3&)
+		void Register_UnityEngine_Collider_ClosestPoint_Injected();
+		Register_UnityEngine_Collider_ClosestPoint_Injected();
 
 		//System.Void UnityEngine.Collider::get_bounds_Injected(UnityEngine.Bounds&)
 		void Register_UnityEngine_Collider_get_bounds_Injected();
@@ -2993,6 +3013,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Single UnityEngine.Time::get_time()
 		void Register_UnityEngine_Time_get_time();
 		Register_UnityEngine_Time_get_time();
+
+		//System.Single UnityEngine.Time::get_timeScale()
+		void Register_UnityEngine_Time_get_timeScale();
+		Register_UnityEngine_Time_get_timeScale();
 
 		//System.Single UnityEngine.Time::get_timeSinceLevelLoad()
 		void Register_UnityEngine_Time_get_timeSinceLevelLoad();

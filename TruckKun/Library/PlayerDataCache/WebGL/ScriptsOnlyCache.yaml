@@ -167,6 +167,12 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
     - Class: 258
       Script: {instanceID: 0}
     - Class: 850595691
@@ -251,6 +257,12 @@ ScriptsOnlyBuild:
     - Class: 196
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
       Script: {instanceID: 0}
     - Class: 258
       Script: {instanceID: 0}
@@ -362,6 +374,12 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
       Script: {instanceID: 0}
     - Class: 258
       Script: {instanceID: 0}
@@ -1417,4 +1435,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/1Start.unity
   - Assets/Scenes/2Instructions.unity
   - Assets/Scenes/3MainLevel.unity
-  playerPath: E:/UnityBuilds/TruckKun3
+  playerPath: E:/UnityBuilds/TruckKun 1.3.2 (Audio Tweak)

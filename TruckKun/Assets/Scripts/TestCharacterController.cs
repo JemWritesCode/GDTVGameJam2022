@@ -6,19 +6,11 @@ public class TestCharacterController : MonoBehaviour
 {
 
     [SerializeField] public float movementSpeed = 1f;
-    public float speedMultiplier = 1f; // Potentially have this go up over time to make the game harder.
-    
+    public float speedMultiplier = 1f; 
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        speedMultiplier += .0003f;
+        speedMultiplier += .0003f; // Gets faster over time
         float hMovement = Input.GetAxis("Horizontal") * movementSpeed / 2 * speedMultiplier;
         float vMovement = speedMultiplier * movementSpeed; // disable to Only let them move back and forth. move the map
         transform.Translate(new Vector3(hMovement, 0, vMovement) * Time.deltaTime);
@@ -34,5 +26,4 @@ public class TestCharacterController : MonoBehaviour
         Debug.Log("Stopping the Truck.");
         movementSpeed = 0;
     }
-
 }

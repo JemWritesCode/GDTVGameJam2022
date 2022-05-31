@@ -20,344 +20,344 @@ extern void GameManager_Start_m87A71D65F3171A58DBDDBFB03832ADA65643D0E2 (void);
 extern void GameManager_Update_m7F29D8E933B8D21D2E67507979C0F12ACF87BB41 (void);
 // 0x00000004 System.Void GameManager::.ctor()
 extern void GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368 (void);
-// 0x00000005 System.Void GameOverScreen::Setup()
-extern void GameOverScreen_Setup_mEE89B10B88CE301210BC566928357D086840A1E1 (void);
-// 0x00000006 System.Void GameOverScreen::RestartButton()
-extern void GameOverScreen_RestartButton_m5AA1EEADBACE674076413DF326CBED43654A98F1 (void);
-// 0x00000007 System.Void GameOverScreen::ExitButton()
-extern void GameOverScreen_ExitButton_mE985D66F3DF66C66842CF10599413454B3BCED8B (void);
-// 0x00000008 System.Void GameOverScreen::.ctor()
-extern void GameOverScreen__ctor_mC5150146F14E85405429254671C40F23C5BD9F20 (void);
-// 0x00000009 System.Single PlayerBasicCode::get_GetH()
+// 0x00000005 System.Single PlayerBasicCode::get_GetH()
 extern void PlayerBasicCode_get_GetH_m77200DBB0A0479CE92ADA0BF46F3DC3A47478357 (void);
-// 0x0000000A System.Single PlayerBasicCode::get_GetV()
+// 0x00000006 System.Single PlayerBasicCode::get_GetV()
 extern void PlayerBasicCode_get_GetV_m9DE12DF7393E6A12EB1E3F1AB53D2B9774C484BA (void);
-// 0x0000000B ThirdPerson PlayerBasicCode::get_GetCamScript()
+// 0x00000007 ThirdPerson PlayerBasicCode::get_GetCamScript()
 extern void PlayerBasicCode_get_GetCamScript_mFAD19ED64B8BA43A676BEF0014414C33EE3DAD7C (void);
-// 0x0000000C UnityEngine.Rigidbody PlayerBasicCode::get_GetRigidBody()
+// 0x00000008 UnityEngine.Rigidbody PlayerBasicCode::get_GetRigidBody()
 extern void PlayerBasicCode_get_GetRigidBody_m8A5F61078B801B4DFB980D7CA9A23A7292FEA152 (void);
-// 0x0000000D UnityEngine.Animator PlayerBasicCode::get_GetAnim()
+// 0x00000009 UnityEngine.Animator PlayerBasicCode::get_GetAnim()
 extern void PlayerBasicCode_get_GetAnim_m7D6E8695111D8B811D52D55A0C3D431184CA2079 (void);
-// 0x0000000E System.Int32 PlayerBasicCode::get_GetDefaultBehaviour()
+// 0x0000000A System.Int32 PlayerBasicCode::get_GetDefaultBehaviour()
 extern void PlayerBasicCode_get_GetDefaultBehaviour_m1B34C806C2A31F8F8B933B9AB1CFDB16D16AAB8D (void);
-// 0x0000000F System.Void PlayerBasicCode::Awake()
+// 0x0000000B System.Void PlayerBasicCode::Awake()
 extern void PlayerBasicCode_Awake_m706350AD9C4EA15226075A5A932CF155597D71A9 (void);
-// 0x00000010 System.Void PlayerBasicCode::Update()
+// 0x0000000C System.Void PlayerBasicCode::Update()
 extern void PlayerBasicCode_Update_mD4C2F74A2F294523B5E2F7BEF66E984202D26780 (void);
-// 0x00000011 System.Void PlayerBasicCode::FixedUpdate()
+// 0x0000000D System.Void PlayerBasicCode::FixedUpdate()
 extern void PlayerBasicCode_FixedUpdate_m8BEB9E545A675D8083F721787E82983C22DD666E (void);
-// 0x00000012 System.Void PlayerBasicCode::LateUpdate()
+// 0x0000000E System.Void PlayerBasicCode::LateUpdate()
 extern void PlayerBasicCode_LateUpdate_mD22EBAB37D0EF6E9103D83AB5FE8D5634AA420D6 (void);
-// 0x00000013 System.Void PlayerBasicCode::SubscribeBehaviour(GenericBehaviour)
+// 0x0000000F System.Void PlayerBasicCode::SubscribeBehaviour(GenericBehaviour)
 extern void PlayerBasicCode_SubscribeBehaviour_mF9792E4B473BA14121F1E1CE057393F8D46245EB (void);
-// 0x00000014 System.Void PlayerBasicCode::RegisterDefaultBehaviour(System.Int32)
+// 0x00000010 System.Void PlayerBasicCode::RegisterDefaultBehaviour(System.Int32)
 extern void PlayerBasicCode_RegisterDefaultBehaviour_mEA2A999D893B1E6B8CBD1B0F5AD790EBBF893E7C (void);
-// 0x00000015 System.Void PlayerBasicCode::RegisterBehaviour(System.Int32)
+// 0x00000011 System.Void PlayerBasicCode::RegisterBehaviour(System.Int32)
 extern void PlayerBasicCode_RegisterBehaviour_m7F5F44950CECDDD3703DE60B55A93AC07132E0A6 (void);
-// 0x00000016 System.Void PlayerBasicCode::UnregisterBehaviour(System.Int32)
+// 0x00000012 System.Void PlayerBasicCode::UnregisterBehaviour(System.Int32)
 extern void PlayerBasicCode_UnregisterBehaviour_mC152A477A9AEDCFC302C6504BA9488E3640DA4C6 (void);
-// 0x00000017 System.Boolean PlayerBasicCode::OverrideWithBehaviour(GenericBehaviour)
+// 0x00000013 System.Boolean PlayerBasicCode::OverrideWithBehaviour(GenericBehaviour)
 extern void PlayerBasicCode_OverrideWithBehaviour_m96E6FB3208A113CC9749D10D50155F81CC85EA8D (void);
-// 0x00000018 System.Boolean PlayerBasicCode::RevokeOverridingBehaviour(GenericBehaviour)
+// 0x00000014 System.Boolean PlayerBasicCode::RevokeOverridingBehaviour(GenericBehaviour)
 extern void PlayerBasicCode_RevokeOverridingBehaviour_m76AA3D89C845922B2FDFF8B2DA1167B962913989 (void);
-// 0x00000019 System.Boolean PlayerBasicCode::IsOverriding(GenericBehaviour)
+// 0x00000015 System.Boolean PlayerBasicCode::IsOverriding(GenericBehaviour)
 extern void PlayerBasicCode_IsOverriding_m1BED7DC3B4C8BD5518C41BF62A7BF3ABA83555CC (void);
-// 0x0000001A System.Boolean PlayerBasicCode::IsCurrentBehaviour(System.Int32)
+// 0x00000016 System.Boolean PlayerBasicCode::IsCurrentBehaviour(System.Int32)
 extern void PlayerBasicCode_IsCurrentBehaviour_mFC575CEBE8E7C49244FBBCD1DD53CF0D25C7C403 (void);
-// 0x0000001B System.Boolean PlayerBasicCode::GetTempLockStatus(System.Int32)
+// 0x00000017 System.Boolean PlayerBasicCode::GetTempLockStatus(System.Int32)
 extern void PlayerBasicCode_GetTempLockStatus_m303A93718EDEB4777CCC40367FD77D3A69BA0F69 (void);
-// 0x0000001C System.Void PlayerBasicCode::LockTempBehaviour(System.Int32)
+// 0x00000018 System.Void PlayerBasicCode::LockTempBehaviour(System.Int32)
 extern void PlayerBasicCode_LockTempBehaviour_m25BAAC32A15E2EF2D970E98604161C91510A3BDB (void);
-// 0x0000001D System.Void PlayerBasicCode::UnlockTempBehaviour(System.Int32)
+// 0x00000019 System.Void PlayerBasicCode::UnlockTempBehaviour(System.Int32)
 extern void PlayerBasicCode_UnlockTempBehaviour_m85F60EFF6AD165278B11DC2B9B8D2C16695CB155 (void);
-// 0x0000001E System.Boolean PlayerBasicCode::IsSprinting()
+// 0x0000001A System.Boolean PlayerBasicCode::IsSprinting()
 extern void PlayerBasicCode_IsSprinting_m48B85B74546DFE3EAA1DAA5AA3F9945FA2910F00 (void);
-// 0x0000001F System.Boolean PlayerBasicCode::CanSprint()
+// 0x0000001B System.Boolean PlayerBasicCode::CanSprint()
 extern void PlayerBasicCode_CanSprint_m6F793DCE6E2311701B57655BB047D55A1742D987 (void);
-// 0x00000020 System.Boolean PlayerBasicCode::IsHorizontalMoving()
+// 0x0000001C System.Boolean PlayerBasicCode::IsHorizontalMoving()
 extern void PlayerBasicCode_IsHorizontalMoving_m3097DD99CF7841E72590D16FF1CD9DF53FB824B2 (void);
-// 0x00000021 System.Boolean PlayerBasicCode::IsMoving()
+// 0x0000001D System.Boolean PlayerBasicCode::IsMoving()
 extern void PlayerBasicCode_IsMoving_m3685F5F7363777B7F2A6ACC50590D6E6DD72141A (void);
-// 0x00000022 UnityEngine.Vector3 PlayerBasicCode::GetLastDirection()
+// 0x0000001E UnityEngine.Vector3 PlayerBasicCode::GetLastDirection()
 extern void PlayerBasicCode_GetLastDirection_m44BAE0E9953D0242A2E7F6E16E99969D6CB0CFFF (void);
-// 0x00000023 System.Void PlayerBasicCode::SetLastDirection(UnityEngine.Vector3)
+// 0x0000001F System.Void PlayerBasicCode::SetLastDirection(UnityEngine.Vector3)
 extern void PlayerBasicCode_SetLastDirection_mDC5878E5753D07B2C49EC491C364B9FD94EA5453 (void);
-// 0x00000024 System.Void PlayerBasicCode::Repositioning()
+// 0x00000020 System.Void PlayerBasicCode::Repositioning()
 extern void PlayerBasicCode_Repositioning_m9BDE740714D54DEB1A3D5565B2A83A2A54B4A531 (void);
-// 0x00000025 System.Boolean PlayerBasicCode::IsGrounded()
+// 0x00000021 System.Boolean PlayerBasicCode::IsGrounded()
 extern void PlayerBasicCode_IsGrounded_mEC23B43FAD1CB05EC1C05D6761BCB64F2FE3C7F4 (void);
-// 0x00000026 System.Void PlayerBasicCode::.ctor()
+// 0x00000022 System.Void PlayerBasicCode::.ctor()
 extern void PlayerBasicCode__ctor_mDACB2B0A59CBCF7E2654A7B84C413D847B18F836 (void);
-// 0x00000027 System.Void GenericBehaviour::Awake()
+// 0x00000023 System.Void GenericBehaviour::Awake()
 extern void GenericBehaviour_Awake_m35C15000FF6BAB962852809F7C533BB1E85AD3DD (void);
-// 0x00000028 System.Void GenericBehaviour::LocalFixedUpdate()
+// 0x00000024 System.Void GenericBehaviour::LocalFixedUpdate()
 extern void GenericBehaviour_LocalFixedUpdate_mB82B573F9A4B3CFCD727213BC4C374874437955E (void);
-// 0x00000029 System.Void GenericBehaviour::LocalLateUpdate()
+// 0x00000025 System.Void GenericBehaviour::LocalLateUpdate()
 extern void GenericBehaviour_LocalLateUpdate_m887ED98459DCACE41F2D78F2F22F750E85E855B1 (void);
-// 0x0000002A System.Void GenericBehaviour::OnOverride()
+// 0x00000026 System.Void GenericBehaviour::OnOverride()
 extern void GenericBehaviour_OnOverride_m0B395B5D5E654A12CFB1D873AF3ADBE2DDD62E58 (void);
-// 0x0000002B System.Int32 GenericBehaviour::GetBehaviourCode()
+// 0x00000027 System.Int32 GenericBehaviour::GetBehaviourCode()
 extern void GenericBehaviour_GetBehaviourCode_m282A9BCEEC238065714A81912AD74CBA5BF0FD7B (void);
-// 0x0000002C System.Boolean GenericBehaviour::AllowSprint()
+// 0x00000028 System.Boolean GenericBehaviour::AllowSprint()
 extern void GenericBehaviour_AllowSprint_m8F69E55037D1E2694D19CFFC55E353B8F20BBD98 (void);
-// 0x0000002D System.Void GenericBehaviour::.ctor()
+// 0x00000029 System.Void GenericBehaviour::.ctor()
 extern void GenericBehaviour__ctor_mF87936BD29D74D17BCC4957B9699E3C5C5E23F4B (void);
-// 0x0000002E System.Void PlayerMoveCode::Start()
+// 0x0000002A System.Void PlayerMoveCode::Start()
 extern void PlayerMoveCode_Start_mE0B4216BB0621C01DA6972FC838DC1624A173E40 (void);
-// 0x0000002F System.Void PlayerMoveCode::Update()
+// 0x0000002B System.Void PlayerMoveCode::Update()
 extern void PlayerMoveCode_Update_mE44FF1EDB28124DD39A22E86BAC7FB8F3A88FAEA (void);
-// 0x00000030 System.Void PlayerMoveCode::LocalFixedUpdate()
+// 0x0000002C System.Void PlayerMoveCode::LocalFixedUpdate()
 extern void PlayerMoveCode_LocalFixedUpdate_mA96C9BCC340FC948EDB046E138E00F5A8F283BBC (void);
-// 0x00000031 System.Void PlayerMoveCode::JumpManagement()
+// 0x0000002D System.Void PlayerMoveCode::JumpManagement()
 extern void PlayerMoveCode_JumpManagement_m144A8EBE93EB9B0D8154F1C354502A5E23153D72 (void);
-// 0x00000032 System.Void PlayerMoveCode::MovementManagement(System.Single,System.Single)
+// 0x0000002E System.Void PlayerMoveCode::MovementManagement(System.Single,System.Single)
 extern void PlayerMoveCode_MovementManagement_m0A749F6DF2894D676A7C1EBABF36F4BC450FDB0C (void);
-// 0x00000033 System.Void PlayerMoveCode::RemoveVerticalVelocity()
+// 0x0000002F System.Void PlayerMoveCode::RemoveVerticalVelocity()
 extern void PlayerMoveCode_RemoveVerticalVelocity_m895F689CD74D4CBED1D28FDBD758BC7AA5FDCD26 (void);
-// 0x00000034 UnityEngine.Vector3 PlayerMoveCode::Rotating(System.Single,System.Single)
+// 0x00000030 UnityEngine.Vector3 PlayerMoveCode::Rotating(System.Single,System.Single)
 extern void PlayerMoveCode_Rotating_mC8E0CE56559019E0CC9C49673ACE2B11A589F8E9 (void);
-// 0x00000035 System.Void PlayerMoveCode::OnCollisionStay(UnityEngine.Collision)
+// 0x00000031 System.Void PlayerMoveCode::OnCollisionStay(UnityEngine.Collision)
 extern void PlayerMoveCode_OnCollisionStay_m1D1C092C038E7CA33696BB4D05AC14D519CED431 (void);
-// 0x00000036 System.Void PlayerMoveCode::OnCollisionExit(UnityEngine.Collision)
+// 0x00000032 System.Void PlayerMoveCode::OnCollisionExit(UnityEngine.Collision)
 extern void PlayerMoveCode_OnCollisionExit_mF716B5671662807A841395D05A720CC9716BD1F0 (void);
-// 0x00000037 System.Void PlayerMoveCode::.ctor()
+// 0x00000033 System.Void PlayerMoveCode::.ctor()
 extern void PlayerMoveCode__ctor_m274B7F2617E0F642EFBE3457A6A0BBFF55D6C860 (void);
-// 0x00000038 System.Single ThirdPerson::get_GetH()
+// 0x00000034 System.Single ThirdPerson::get_GetH()
 extern void ThirdPerson_get_GetH_m9B081AECC041E85BA67254A6F4130F6B200655B8 (void);
-// 0x00000039 System.Void ThirdPerson::Awake()
+// 0x00000035 System.Void ThirdPerson::Awake()
 extern void ThirdPerson_Awake_m803EEFE103C3FFC7A82D97FDF1D94598ED7BC8FE (void);
-// 0x0000003A System.Void ThirdPerson::Update()
+// 0x00000036 System.Void ThirdPerson::Update()
 extern void ThirdPerson_Update_mBE7C4AC640ED29A4E4420ED91272BC9C80DB3BBB (void);
-// 0x0000003B System.Void ThirdPerson::SetTargetOffsets(UnityEngine.Vector3,UnityEngine.Vector3)
+// 0x00000037 System.Void ThirdPerson::SetTargetOffsets(UnityEngine.Vector3,UnityEngine.Vector3)
 extern void ThirdPerson_SetTargetOffsets_m175F30CA0C41FDF389E83BC21EB62FFC698B37AF (void);
-// 0x0000003C System.Void ThirdPerson::ResetTargetOffsets()
+// 0x00000038 System.Void ThirdPerson::ResetTargetOffsets()
 extern void ThirdPerson_ResetTargetOffsets_m136B1DF70FAEDD941053821873DD504A85136060 (void);
-// 0x0000003D System.Void ThirdPerson::ResetYCamOffset()
+// 0x00000039 System.Void ThirdPerson::ResetYCamOffset()
 extern void ThirdPerson_ResetYCamOffset_m7DDEFF4A158A8DCBA06953B7EB021E17BDD5ADF4 (void);
-// 0x0000003E System.Void ThirdPerson::SetYCamOffset(System.Single)
+// 0x0000003A System.Void ThirdPerson::SetYCamOffset(System.Single)
 extern void ThirdPerson_SetYCamOffset_m8E351BC96078AEAB3FD12E5337DC5EA062568A51 (void);
-// 0x0000003F System.Void ThirdPerson::SetXCamOffset(System.Single)
+// 0x0000003B System.Void ThirdPerson::SetXCamOffset(System.Single)
 extern void ThirdPerson_SetXCamOffset_m98432C7DF4E46841A0FEADF512176822A2F9D06E (void);
-// 0x00000040 System.Void ThirdPerson::SetFOV(System.Single)
+// 0x0000003C System.Void ThirdPerson::SetFOV(System.Single)
 extern void ThirdPerson_SetFOV_m4F705A83BCFC180D7FC28E79173673368083668C (void);
-// 0x00000041 System.Void ThirdPerson::ResetFOV()
+// 0x0000003D System.Void ThirdPerson::ResetFOV()
 extern void ThirdPerson_ResetFOV_m652433D82B48C1126C3F12D310F19B89279B7403 (void);
-// 0x00000042 System.Void ThirdPerson::SetMaxVerticalAngle(System.Single)
+// 0x0000003E System.Void ThirdPerson::SetMaxVerticalAngle(System.Single)
 extern void ThirdPerson_SetMaxVerticalAngle_m6E2039CD22962334A59E6328116F67ACF9D7214F (void);
-// 0x00000043 System.Void ThirdPerson::ResetMaxVerticalAngle()
+// 0x0000003F System.Void ThirdPerson::ResetMaxVerticalAngle()
 extern void ThirdPerson_ResetMaxVerticalAngle_m8F46DBDB9DFC4E505B6F3E9D5C6B9EFA7373685E (void);
-// 0x00000044 System.Boolean ThirdPerson::DoubleViewingPosCheck(UnityEngine.Vector3)
+// 0x00000040 System.Boolean ThirdPerson::DoubleViewingPosCheck(UnityEngine.Vector3)
 extern void ThirdPerson_DoubleViewingPosCheck_m3CDEF3F3691E2BCAA75222E4D2ABCE393872013F (void);
-// 0x00000045 System.Boolean ThirdPerson::ViewingPosCheck(UnityEngine.Vector3)
+// 0x00000041 System.Boolean ThirdPerson::ViewingPosCheck(UnityEngine.Vector3)
 extern void ThirdPerson_ViewingPosCheck_mD2EDE2244B536AC44BD43044F9CDB5520FD3C7C9 (void);
-// 0x00000046 System.Boolean ThirdPerson::ReverseViewingPosCheck(UnityEngine.Vector3)
+// 0x00000042 System.Boolean ThirdPerson::ReverseViewingPosCheck(UnityEngine.Vector3)
 extern void ThirdPerson_ReverseViewingPosCheck_m838A84125E516B05C76A5FDA9F7F1E5CD73B6604 (void);
-// 0x00000047 System.Single ThirdPerson::GetCurrentPivotMagnitude(UnityEngine.Vector3)
+// 0x00000043 System.Single ThirdPerson::GetCurrentPivotMagnitude(UnityEngine.Vector3)
 extern void ThirdPerson_GetCurrentPivotMagnitude_mB106869A545413D9176E0813DDBF1E27B5628E6C (void);
-// 0x00000048 System.Void ThirdPerson::.ctor()
+// 0x00000044 System.Void ThirdPerson::.ctor()
 extern void ThirdPerson__ctor_mB54D16BD8B539BE0C04C05FC9D9653A2B153B461 (void);
-// 0x00000049 System.Void AmbientController::Start()
+// 0x00000045 System.Void AmbientController::Start()
 extern void AmbientController_Start_m80518940EFCD0BD9C89281EF75063A77361BF1AF (void);
-// 0x0000004A System.Void AmbientController::Update()
+// 0x00000046 System.Void AmbientController::Update()
 extern void AmbientController_Update_m0B6A266558E0A7EFC88711E7F5FA1CAEE61AF30D (void);
-// 0x0000004B System.Void AmbientController::rotateAmbientLight(System.Single)
+// 0x00000047 System.Void AmbientController::rotateAmbientLight(System.Single)
 extern void AmbientController_rotateAmbientLight_m85598176A2A87A10BC22CAF91EF5CB19A9D7DA6F (void);
-// 0x0000004C System.Void AmbientController::changeSkybox(AmbientController/AmbientType)
+// 0x00000048 System.Void AmbientController::changeSkybox(AmbientController/AmbientType)
 extern void AmbientController_changeSkybox_m6609A2BBC4C39CB8F863C52B6CC1577FB9254DA8 (void);
-// 0x0000004D System.Void AmbientController::changeShadow(System.Boolean)
+// 0x00000049 System.Void AmbientController::changeShadow(System.Boolean)
 extern void AmbientController_changeShadow_m9A9B6F7F612012CE3FB37BB825321F6F9B092843 (void);
-// 0x0000004E System.Void AmbientController::changeParticle(AmbientController/ParticleType)
+// 0x0000004A System.Void AmbientController::changeParticle(AmbientController/ParticleType)
 extern void AmbientController_changeParticle_m55BBD1DBB32A025EEC990F245F08538222643964 (void);
-// 0x0000004F System.Void AmbientController::.ctor()
+// 0x0000004B System.Void AmbientController::.ctor()
 extern void AmbientController__ctor_mE835DA0D50896FBB474D09197064114C42AE7549 (void);
-// 0x00000050 System.Void CameraController::Start()
+// 0x0000004C System.Void CameraController::Start()
 extern void CameraController_Start_m8EAAC188934ECCBD009EC00751280DCFF4D96C71 (void);
-// 0x00000051 System.Void CameraController::Update()
+// 0x0000004D System.Void CameraController::Update()
 extern void CameraController_Update_mBCB871B23DBA60444D43AB56D780478BA3D355E6 (void);
-// 0x00000052 System.Void CameraController::ChangeCamera(System.Int32)
+// 0x0000004E System.Void CameraController::ChangeCamera(System.Int32)
 extern void CameraController_ChangeCamera_m1CC8709037A746D840CF9FA60D402CA97D6E285A (void);
-// 0x00000053 System.Void CameraController::.ctor()
+// 0x0000004F System.Void CameraController::.ctor()
 extern void CameraController__ctor_mE196A6332BDDED632D6F9DB6260E424594598950 (void);
-// 0x00000054 System.Void FlyThroughController::Start()
+// 0x00000050 System.Void FlyThroughController::Start()
 extern void FlyThroughController_Start_mD08FDA14F1DFCF06397FE594A788EA3539BE9A6E (void);
-// 0x00000055 System.Void FlyThroughController::InitQuery()
+// 0x00000051 System.Void FlyThroughController::InitQuery()
 extern void FlyThroughController_InitQuery_m607BA9DFF21346D3DC42A3663242DB759F06363A (void);
-// 0x00000056 System.Void FlyThroughController::Update()
+// 0x00000052 System.Void FlyThroughController::Update()
 extern void FlyThroughController_Update_m1DAC363E783AEC7679A341513F48453592CC6DD8 (void);
-// 0x00000057 System.Void FlyThroughController::updateMove()
+// 0x00000053 System.Void FlyThroughController::updateMove()
 extern void FlyThroughController_updateMove_mF7DA6A67F0BDE703B047F57C471F1241FC623A5B (void);
-// 0x00000058 System.Void FlyThroughController::OnGUI()
+// 0x00000054 System.Void FlyThroughController::OnGUI()
 extern void FlyThroughController_OnGUI_mBB1D813F8109FAAB83A800E1AAE1C5FE5009338F (void);
-// 0x00000059 System.Void FlyThroughController::.ctor()
+// 0x00000055 System.Void FlyThroughController::.ctor()
 extern void FlyThroughController__ctor_m93422EAD252E3C9DE8137A3AE0D055DF299E3DD3 (void);
-// 0x0000005A System.Void MoveCamera::Start()
+// 0x00000056 System.Void MoveCamera::Start()
 extern void MoveCamera_Start_m9E5AF156D2C9143EF9007CEF8189CB0CEE42FB5B (void);
-// 0x0000005B System.Void MoveCamera::Update()
+// 0x00000057 System.Void MoveCamera::Update()
 extern void MoveCamera_Update_mE6F636B6C3CDBA9DDC6BB61CBEBF6B2AE1A038C4 (void);
-// 0x0000005C System.Void MoveCamera::OnGUI()
+// 0x00000058 System.Void MoveCamera::OnGUI()
 extern void MoveCamera_OnGUI_m5AFDD05C3A29BE4918CE5DBF131D97A47CEB70B5 (void);
-// 0x0000005D System.Void MoveCamera::ChangeCameraAnimation(System.Int32)
+// 0x00000059 System.Void MoveCamera::ChangeCameraAnimation(System.Int32)
 extern void MoveCamera_ChangeCameraAnimation_m8716F5FE7713B7996F46A214BFC81B836E84E885 (void);
-// 0x0000005E System.Void MoveCamera::.ctor()
+// 0x0000005A System.Void MoveCamera::.ctor()
 extern void MoveCamera__ctor_m482685446D944F8C39671E937F0FCDE363291763 (void);
-// 0x0000005F System.Void SetFPS::Start()
+// 0x0000005B System.Void SetFPS::Start()
 extern void SetFPS_Start_m384617EBEFC9278EBC0CF4D36A3A0401E3C0F8F4 (void);
-// 0x00000060 System.Void SetFPS::Update()
+// 0x0000005C System.Void SetFPS::Update()
 extern void SetFPS_Update_m0D20654085822DC358A7FCE2F5111177339DEA46 (void);
-// 0x00000061 System.Void SetFPS::.ctor()
+// 0x0000005D System.Void SetFPS::.ctor()
 extern void SetFPS__ctor_m42FD5ED29A6183D5EE5D3E6D3A0D57EC3CF54EDD (void);
-// 0x00000062 System.Void ViewFPS::Start()
+// 0x0000005E System.Void ViewFPS::Start()
 extern void ViewFPS_Start_m487F12DA61F37D1A380A8F3BF5DE1749F3BCE6B6 (void);
-// 0x00000063 System.Void ViewFPS::Update()
+// 0x0000005F System.Void ViewFPS::Update()
 extern void ViewFPS_Update_mDE668EA834551280C94D8B6F6807617579AB6BFA (void);
-// 0x00000064 System.Void ViewFPS::OnGUI()
+// 0x00000060 System.Void ViewFPS::OnGUI()
 extern void ViewFPS_OnGUI_mE428FBA56CC1FBF944B16A188182EAFFE7B55A91 (void);
-// 0x00000065 System.Void ViewFPS::.ctor()
+// 0x00000061 System.Void ViewFPS::.ctor()
 extern void ViewFPS__ctor_m5B0E6EDBF8912D4E698CC6270D0C6A2772CC6760 (void);
-// 0x00000066 System.Void ZRNGUIController::Start()
+// 0x00000062 System.Void ZRNGUIController::Start()
 extern void ZRNGUIController_Start_m5E978D729E79B7622435826ACEC757EBDE440B10 (void);
-// 0x00000067 System.Void ZRNGUIController::Update()
+// 0x00000063 System.Void ZRNGUIController::Update()
 extern void ZRNGUIController_Update_mB990C28A49171C08102F97DB6B2B40803C856F7B (void);
-// 0x00000068 System.Void ZRNGUIController::OnGUI()
+// 0x00000064 System.Void ZRNGUIController::OnGUI()
 extern void ZRNGUIController_OnGUI_mC561C554A7119B3ABCAC3C3D32F6B3AED072C47C (void);
-// 0x00000069 System.Void ZRNGUIController::SetQueryChan(System.Int32)
+// 0x00000065 System.Void ZRNGUIController::SetQueryChan(System.Int32)
 extern void ZRNGUIController_SetQueryChan_m4AA0562CD140BC569D7459B225B6C7B1C836B321 (void);
-// 0x0000006A System.Void ZRNGUIController::changePlayMode(System.Int32)
+// 0x00000066 System.Void ZRNGUIController::changePlayMode(System.Int32)
 extern void ZRNGUIController_changePlayMode_m8053E31B1CCD263BDC422AF81AB35408A6133A91 (void);
-// 0x0000006B System.Void ZRNGUIController::InitAICars()
+// 0x00000067 System.Void ZRNGUIController::InitAICars()
 extern void ZRNGUIController_InitAICars_m9F5E2BE4196A335891D56235B2E6E2E0AB48848C (void);
-// 0x0000006C System.Void ZRNGUIController::.ctor()
+// 0x00000068 System.Void ZRNGUIController::.ctor()
 extern void ZRNGUIController__ctor_m3283734620499C8E8870753A2973C5B6B9128BD1 (void);
-// 0x0000006D System.Void AICarMove::Start()
+// 0x00000069 System.Void AICarMove::Start()
 extern void AICarMove_Start_m4635558E273E8328169B0B0EFB03A4C69805771F (void);
-// 0x0000006E System.Void AICarMove::InitAICar()
+// 0x0000006A System.Void AICarMove::InitAICar()
 extern void AICarMove_InitAICar_mC879477976C92AE5B8C8D5A5FFAA99030C5EF924 (void);
-// 0x0000006F System.Collections.IEnumerator AICarMove::startCar(System.Single)
+// 0x0000006B System.Collections.IEnumerator AICarMove::startCar(System.Single)
 extern void AICarMove_startCar_m4C09CD8F5BFED272174C99DA1D7B3F330874C221 (void);
-// 0x00000070 System.Void AICarMove::Update()
+// 0x0000006C System.Void AICarMove::Update()
 extern void AICarMove_Update_mCDE3031DE5D79BB07668059EB7D20A9BAC228470 (void);
-// 0x00000071 System.Void AICarMove::.ctor()
+// 0x0000006D System.Void AICarMove::.ctor()
 extern void AICarMove__ctor_mFA1EE0B5B7139C0A6CC0FABB3019074AE06F72FC (void);
-// 0x00000072 System.Void AICarMove/<startCar>d__10::.ctor(System.Int32)
+// 0x0000006E System.Void AICarMove/<startCar>d__10::.ctor(System.Int32)
 extern void U3CstartCarU3Ed__10__ctor_m3A684988C3C2F90C9CA944553F816FBE8BE9327C (void);
-// 0x00000073 System.Void AICarMove/<startCar>d__10::System.IDisposable.Dispose()
+// 0x0000006F System.Void AICarMove/<startCar>d__10::System.IDisposable.Dispose()
 extern void U3CstartCarU3Ed__10_System_IDisposable_Dispose_mA195058294403407AC71E7AEB797F09D737EA72C (void);
-// 0x00000074 System.Boolean AICarMove/<startCar>d__10::MoveNext()
+// 0x00000070 System.Boolean AICarMove/<startCar>d__10::MoveNext()
 extern void U3CstartCarU3Ed__10_MoveNext_m8C6FBAADF1C4FA8A56706427BAF7D1A61044BFA5 (void);
-// 0x00000075 System.Object AICarMove/<startCar>d__10::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000071 System.Object AICarMove/<startCar>d__10::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CstartCarU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF7FA3C5ECF1CE8836BE561423CA4DADC6EDC691B (void);
-// 0x00000076 System.Void AICarMove/<startCar>d__10::System.Collections.IEnumerator.Reset()
+// 0x00000072 System.Void AICarMove/<startCar>d__10::System.Collections.IEnumerator.Reset()
 extern void U3CstartCarU3Ed__10_System_Collections_IEnumerator_Reset_m23C1470D8D353E81E6204D6B9C98348AB931A81B (void);
-// 0x00000077 System.Object AICarMove/<startCar>d__10::System.Collections.IEnumerator.get_Current()
+// 0x00000073 System.Object AICarMove/<startCar>d__10::System.Collections.IEnumerator.get_Current()
 extern void U3CstartCarU3Ed__10_System_Collections_IEnumerator_get_Current_mBB1955EEFBE0EC142DC03EBCD7361806F2E8A404 (void);
-// 0x00000078 System.Void CameraAction::Update()
+// 0x00000074 System.Void CameraAction::Update()
 extern void CameraAction_Update_m74FD9317ED2230D598A0C99B97924454F20AC87A (void);
-// 0x00000079 System.Void CameraAction::CameraRotateDevice()
+// 0x00000075 System.Void CameraAction::CameraRotateDevice()
 extern void CameraAction_CameraRotateDevice_mF2B5112439A0A7442CAD44BBB085325225D6CAA4 (void);
-// 0x0000007A System.Void CameraAction::cameraRotateEditor()
+// 0x00000076 System.Void CameraAction::cameraRotateEditor()
 extern void CameraAction_cameraRotateEditor_mEC2748475CAD475EE68672CEFF812DFDCC6B6D13 (void);
-// 0x0000007B System.Void CameraAction::.ctor()
+// 0x00000077 System.Void CameraAction::.ctor()
 extern void CameraAction__ctor_mC9F826DE4C80B784BF65EA5DA0D4F433369D7F9B (void);
-// 0x0000007C System.Void GUIController::Start()
+// 0x00000078 System.Void GUIController::Start()
 extern void GUIController_Start_m362FC0C21204B40664DD15E3D93BF60E3A8B1946 (void);
-// 0x0000007D System.Void GUIController::OnGUI()
+// 0x00000079 System.Void GUIController::OnGUI()
 extern void GUIController_OnGUI_m0FC28186333F4C055DF44F2375F68572A0F81F97 (void);
-// 0x0000007E System.Void GUIController::ChnageFace(QueryEmotionalController/QueryChanEmotionalType)
+// 0x0000007A System.Void GUIController::ChnageFace(QueryEmotionalController/QueryChanEmotionalType)
 extern void GUIController_ChnageFace_m81CCB28458F612614D11765A014A9226BCB1EA0E (void);
-// 0x0000007F System.Void GUIController::ChangeAnimation(QueryAnimationController/QueryChanAnimationType)
+// 0x0000007B System.Void GUIController::ChangeAnimation(QueryAnimationController/QueryChanAnimationType)
 extern void GUIController_ChangeAnimation_m802E36D8D7E3EEFCEE0B96C5FF8758E8CD971032 (void);
-// 0x00000080 System.Void GUIController::.ctor()
+// 0x0000007C System.Void GUIController::.ctor()
 extern void GUIController__ctor_mA9C8CA8130A621ED18E5CBF4777967976A4CB356 (void);
-// 0x00000081 System.Void GUIControllerAttack::Start()
+// 0x0000007D System.Void GUIControllerAttack::Start()
 extern void GUIControllerAttack_Start_m186C20EA9F707ADC8F713A7FC2DEB6112165C727 (void);
-// 0x00000082 System.Void GUIControllerAttack::OnGUI()
+// 0x0000007E System.Void GUIControllerAttack::OnGUI()
 extern void GUIControllerAttack_OnGUI_m76646D9068DD3CCA08858105E5202F7BEBBA6350 (void);
-// 0x00000083 System.Void GUIControllerAttack::ChnageFace(QueryEmotionalController/QueryChanEmotionalType)
+// 0x0000007F System.Void GUIControllerAttack::ChnageFace(QueryEmotionalController/QueryChanEmotionalType)
 extern void GUIControllerAttack_ChnageFace_m1BCF36DB8A368BA397B58ED03064821072FFE0FC (void);
-// 0x00000084 System.Void GUIControllerAttack::ChangeAnimation(QueryAnimationController/QueryChanAnimationType)
+// 0x00000080 System.Void GUIControllerAttack::ChangeAnimation(QueryAnimationController/QueryChanAnimationType)
 extern void GUIControllerAttack_ChangeAnimation_m6491B2C208C920317B1E54BDBDE42B193B7F9E73 (void);
-// 0x00000085 System.Void GUIControllerAttack::.ctor()
+// 0x00000081 System.Void GUIControllerAttack::.ctor()
 extern void GUIControllerAttack__ctor_mAED2D46A365FBD7F375C9E39482876A2354EAD6D (void);
-// 0x00000086 System.Void GUIControllerFlying::Start()
+// 0x00000082 System.Void GUIControllerFlying::Start()
 extern void GUIControllerFlying_Start_mA55AB40EE7A629D7906359607D0C4DE607C68A5F (void);
-// 0x00000087 System.Void GUIControllerFlying::OnGUI()
+// 0x00000083 System.Void GUIControllerFlying::OnGUI()
 extern void GUIControllerFlying_OnGUI_mE737048787FFDE6B64FDC3B53100BA94E837002A (void);
-// 0x00000088 System.Void GUIControllerFlying::ChnageFace(QueryEmotionalController/QueryChanEmotionalType)
+// 0x00000084 System.Void GUIControllerFlying::ChnageFace(QueryEmotionalController/QueryChanEmotionalType)
 extern void GUIControllerFlying_ChnageFace_m2A77830CCE1451D7386000C5D03EF63B051E258C (void);
-// 0x00000089 System.Void GUIControllerFlying::ChangeAnimation(QueryAnimationController/QueryChanAnimationType)
+// 0x00000085 System.Void GUIControllerFlying::ChangeAnimation(QueryAnimationController/QueryChanAnimationType)
 extern void GUIControllerFlying_ChangeAnimation_mBF24A8716D2549366479FD8524CEDF6A0367C5A3 (void);
-// 0x0000008A System.Void GUIControllerFlying::.ctor()
+// 0x00000086 System.Void GUIControllerFlying::.ctor()
 extern void GUIControllerFlying__ctor_mC37F897F3B72FD4A61D6FA7EB404E3D6A52103DA (void);
-// 0x0000008B System.Void QueryAnimationController::ChangeAnimation(QueryAnimationController/QueryChanAnimationType)
+// 0x00000087 System.Void QueryAnimationController::ChangeAnimation(QueryAnimationController/QueryChanAnimationType)
 extern void QueryAnimationController_ChangeAnimation_m577B4DE9F659A75A287C4B37AE12C5EE2355AC92 (void);
-// 0x0000008C System.Void QueryAnimationController::changeHandPart(QueryAnimationController/QueryChanHandType)
+// 0x00000088 System.Void QueryAnimationController::changeHandPart(QueryAnimationController/QueryChanHandType)
 extern void QueryAnimationController_changeHandPart_mED319E68C000955325C4F5068855BE24794959A6 (void);
-// 0x0000008D System.Void QueryAnimationController::.ctor()
+// 0x00000089 System.Void QueryAnimationController::.ctor()
 extern void QueryAnimationController__ctor_mDAE3B79D9A2AB16E01C5DC9CEB77C34894C92BAD (void);
-// 0x0000008E System.Void QueryEmotionalController::ChangeEmotion(QueryEmotionalController/QueryChanEmotionalType)
+// 0x0000008A System.Void QueryEmotionalController::ChangeEmotion(QueryEmotionalController/QueryChanEmotionalType)
 extern void QueryEmotionalController_ChangeEmotion_m46BD867D9E94D9789DF5B26766753E5E24B307B4 (void);
-// 0x0000008F System.Void QueryEmotionalController::.ctor()
+// 0x0000008B System.Void QueryEmotionalController::.ctor()
 extern void QueryEmotionalController__ctor_mCFE3AC7256167907D9DC0AC8EF85F39018FF39F9 (void);
-// 0x00000090 System.Void QuerySoundController::PlaySoundByType(QuerySoundController/QueryChanSoundType)
+// 0x0000008C System.Void QuerySoundController::PlaySoundByType(QuerySoundController/QueryChanSoundType)
 extern void QuerySoundController_PlaySoundByType_m8BB05D16FBBF1A64FC45F393510B53794A0D1940 (void);
-// 0x00000091 System.Void QuerySoundController::PlaySoundByNumber(System.Int32)
+// 0x0000008D System.Void QuerySoundController::PlaySoundByNumber(System.Int32)
 extern void QuerySoundController_PlaySoundByNumber_m750402222BA0BE336642D8D32987F3909C83EECD (void);
-// 0x00000092 System.Void QuerySoundController::StopSound()
+// 0x0000008E System.Void QuerySoundController::StopSound()
 extern void QuerySoundController_StopSound_mBA002C91EA96C948AAED861D74F455DAA295895F (void);
-// 0x00000093 System.Void QuerySoundController::.ctor()
+// 0x0000008F System.Void QuerySoundController::.ctor()
 extern void QuerySoundController__ctor_m0A6437D80F700F8108A2BDCCB2BEDD6033BF7C7A (void);
-// 0x00000094 System.Void PlaySoundWhenHit::Start()
-extern void PlaySoundWhenHit_Start_m1B3D374A29965E71AD2804CE7F96D034B1EF3C53 (void);
-// 0x00000095 System.Void PlaySoundWhenHit::OnTriggerEnter(UnityEngine.Collider)
-extern void PlaySoundWhenHit_OnTriggerEnter_m5D10B57E537FB835628C18DD8F179FC56EAC197D (void);
-// 0x00000096 System.Void PlaySoundWhenHit::.ctor()
-extern void PlaySoundWhenHit__ctor_m1C1C2B17DF5D42A07E2439E3A1AF248F77A86EFC (void);
-// 0x00000097 System.Void AudioManager::Start()
+// 0x00000090 System.Void AudioManager::Start()
 extern void AudioManager_Start_m3C0FEAF19F58B6D28A9E6D815B3AAF94FEA21B69 (void);
-// 0x00000098 System.Void AudioManager::Update()
+// 0x00000091 System.Void AudioManager::Update()
 extern void AudioManager_Update_m7DF7834692993676DCBBECA42E396F7A4E623A43 (void);
-// 0x00000099 System.Void AudioManager::.ctor()
+// 0x00000092 System.Void AudioManager::.ctor()
 extern void AudioManager__ctor_mA793A9DF6B975D03690B7C953972EFE41AE4D5E6 (void);
-// 0x0000009A System.Void CameraControl::Start()
+// 0x00000093 System.Void CameraControl::Start()
 extern void CameraControl_Start_m662E1B65B615666AA6CE8750C76258C0717AE650 (void);
-// 0x0000009B System.Void CameraControl::LateUpdate()
+// 0x00000094 System.Void CameraControl::LateUpdate()
 extern void CameraControl_LateUpdate_mF45EB6DCFC719E748ED1B152C1026059CFFB9FF8 (void);
-// 0x0000009C System.Void CameraControl::.ctor()
+// 0x00000095 System.Void CameraControl::.ctor()
 extern void CameraControl__ctor_m8D3F1A9A5BB984EA7F1EF2423818739A5083BE03 (void);
-// 0x0000009D System.Void ClickPlayButton::Start()
+// 0x00000096 System.Void ClickPlayButton::Start()
 extern void ClickPlayButton_Start_mC313E2886A030BA880D57EE5D6F6ABC67C911B63 (void);
-// 0x0000009E System.Void ClickPlayButton::Update()
+// 0x00000097 System.Void ClickPlayButton::Update()
 extern void ClickPlayButton_Update_m0372FF58AEAF409974400A2726F39EA968DDB723 (void);
-// 0x0000009F System.Void ClickPlayButton::OnMouseDown()
+// 0x00000098 System.Void ClickPlayButton::OnMouseDown()
 extern void ClickPlayButton_OnMouseDown_m3403FA7AE741439C6B13BC3816E367E64C08021B (void);
-// 0x000000A0 System.Void ClickPlayButton::LoadNextLevel()
+// 0x00000099 System.Void ClickPlayButton::LoadNextLevel()
 extern void ClickPlayButton_LoadNextLevel_m3C61ADEB4BE3206410A2F3228FCA43188C5827FA (void);
-// 0x000000A1 System.Void ClickPlayButton::.ctor()
+// 0x0000009A System.Void ClickPlayButton::.ctor()
 extern void ClickPlayButton__ctor_m52780C18A1526F6A3420521E18091A4A48E65901 (void);
-// 0x000000A2 System.Void MilesScore::Start()
+// 0x0000009B System.Void GameOverScreen::Setup()
+extern void GameOverScreen_Setup_mEE89B10B88CE301210BC566928357D086840A1E1 (void);
+// 0x0000009C System.Void GameOverScreen::RestartButton()
+extern void GameOverScreen_RestartButton_m5AA1EEADBACE674076413DF326CBED43654A98F1 (void);
+// 0x0000009D System.Void GameOverScreen::ExitButton()
+extern void GameOverScreen_ExitButton_mE985D66F3DF66C66842CF10599413454B3BCED8B (void);
+// 0x0000009E System.Void GameOverScreen::.ctor()
+extern void GameOverScreen__ctor_mC5150146F14E85405429254671C40F23C5BD9F20 (void);
+// 0x0000009F System.Void MilesScore::Start()
 extern void MilesScore_Start_mE472DB36600FAB16317DD4C4691AAD77A87B18E6 (void);
-// 0x000000A3 System.Void MilesScore::Update()
+// 0x000000A0 System.Void MilesScore::Update()
 extern void MilesScore_Update_mB540F0F9938BEE296AFCAC1B534ECE9400BFBFF4 (void);
-// 0x000000A4 System.Void MilesScore::increaseHeroScore()
+// 0x000000A1 System.Void MilesScore::increaseHeroScore()
 extern void MilesScore_increaseHeroScore_mC4721F89DFE859360D6758658AF582CA6C734A16 (void);
-// 0x000000A5 System.Void MilesScore::.ctor()
+// 0x000000A2 System.Void MilesScore::.ctor()
 extern void MilesScore__ctor_m0B670D5195CED167D39CE0D8D59635D58DC924C7 (void);
-// 0x000000A6 System.Void ObstacleSpawner::Start()
+// 0x000000A3 System.Void ObstacleSpawner::Start()
 extern void ObstacleSpawner_Start_mE22338F0EB8D6446D5E09C3BC271B9A312FEB7BB (void);
-// 0x000000A7 System.Void ObstacleSpawner::Update()
+// 0x000000A4 System.Void ObstacleSpawner::Update()
 extern void ObstacleSpawner_Update_m3266463E77433CD430E2B948372FABBC4E652D0B (void);
-// 0x000000A8 System.Void ObstacleSpawner::SpawnObstacles()
+// 0x000000A5 System.Void ObstacleSpawner::SpawnObstacles()
 extern void ObstacleSpawner_SpawnObstacles_mE0C5FA873CBE2C73E6C4F750F293B49ED73DECDC (void);
-// 0x000000A9 System.Void ObstacleSpawner::.ctor()
+// 0x000000A6 System.Void ObstacleSpawner::.ctor()
 extern void ObstacleSpawner__ctor_mD0E52BA33EF3B1B5E8235A469E089DA17CC63C94 (void);
-// 0x000000AA System.Void PlayerCollisionController::Start()
+// 0x000000A7 System.Void PlayerCollisionController::Start()
 extern void PlayerCollisionController_Start_m83A1C8C673C8C9BBE7E2B521BB137281518E1493 (void);
-// 0x000000AB System.Void PlayerCollisionController::Update()
+// 0x000000A8 System.Void PlayerCollisionController::Update()
 extern void PlayerCollisionController_Update_mB0E0CAD754F36CD786845B8E951B797B8250B0CC (void);
-// 0x000000AC System.Void PlayerCollisionController::OnTriggerEnter(UnityEngine.Collider)
+// 0x000000A9 System.Void PlayerCollisionController::OnTriggerEnter(UnityEngine.Collider)
 extern void PlayerCollisionController_OnTriggerEnter_mC53B9C063E75E0F03A763FCD8DC229F72B5B5FF0 (void);
-// 0x000000AD System.Void PlayerCollisionController::.ctor()
+// 0x000000AA System.Void PlayerCollisionController::.ctor()
 extern void PlayerCollisionController__ctor_m2E0B45B3CBB4FD81E1DFC5803149D77A9A322D64 (void);
+// 0x000000AB System.Void PlaySoundWhenHit::Start()
+extern void PlaySoundWhenHit_Start_m1B3D374A29965E71AD2804CE7F96D034B1EF3C53 (void);
+// 0x000000AC System.Void PlaySoundWhenHit::OnTriggerEnter(UnityEngine.Collider)
+extern void PlaySoundWhenHit_OnTriggerEnter_m5D10B57E537FB835628C18DD8F179FC56EAC197D (void);
+// 0x000000AD System.Void PlaySoundWhenHit::.ctor()
+extern void PlaySoundWhenHit__ctor_m1C1C2B17DF5D42A07E2439E3A1AF248F77A86EFC (void);
 // 0x000000AE System.Void PlotSpawner::Start()
 extern void PlotSpawner_Start_mA21E50C3226E2FD9B1356229258A32240278379C (void);
 // 0x000000AF System.Void PlotSpawner::Update()
@@ -372,30 +372,30 @@ extern void RoadSpawner_Start_m5313CBF42AB25785EEE0E0002B6925DA912E4BAE (void);
 extern void RoadSpawner_SpawnRoad_mF23C757EE754F7F4092B7354A6724115B1526E7B (void);
 // 0x000000B4 System.Void RoadSpawner::.ctor()
 extern void RoadSpawner__ctor_mA336687CD14D8E177766BA27F0B002DF0E7521EE (void);
-// 0x000000B5 System.Void Sound::.ctor()
-extern void Sound__ctor_m5DD7C9F71B98D5670BBDD05F6D6FCDF43DC9EA8F (void);
-// 0x000000B6 System.Void SpawnManager::Start()
-extern void SpawnManager_Start_m65C9EA67649948222CFF4FBBF77BE2319D813DAF (void);
-// 0x000000B7 System.Void SpawnManager::Update()
-extern void SpawnManager_Update_mD714BA3EADCC182FB7A93B9DE347D727E3A1BC53 (void);
-// 0x000000B8 System.Void SpawnManager::SpawnTriggerEntered()
-extern void SpawnManager_SpawnTriggerEntered_m407027FDA4F12687660914EE0479C708554FFD93 (void);
-// 0x000000B9 System.Void SpawnManager::.ctor()
-extern void SpawnManager__ctor_m8DD503A0FFE79FA38CF0B7F013E54D24A04D166A (void);
-// 0x000000BA System.Void TestCharacterController::Start()
-extern void TestCharacterController_Start_m59F5BC09AA316F808F82B01D4EEE3AD5B5EF209A (void);
-// 0x000000BB System.Void TestCharacterController::Update()
-extern void TestCharacterController_Update_mB12DBF0C5D235BE7123E72B811DB6BDBF2030DEB (void);
-// 0x000000BC System.Void TestCharacterController::StopTheTruck()
-extern void TestCharacterController_StopTheTruck_m895F17717CA4EA7BE3FD0CE2E9630E01DDD6EBA8 (void);
-// 0x000000BD System.Void TestCharacterController::.ctor()
-extern void TestCharacterController__ctor_mB934F120E41607C6E9ECCAEF93C2232FEAD93A77 (void);
-// 0x000000BE System.Void ShowMouseCursor::Start()
+// 0x000000B5 System.Void ShowMouseCursor::Start()
 extern void ShowMouseCursor_Start_m56ED262213521A2D31DBD92F983299477DB6E719 (void);
-// 0x000000BF System.Void ShowMouseCursor::Update()
+// 0x000000B6 System.Void ShowMouseCursor::Update()
 extern void ShowMouseCursor_Update_m1618C193094C46F4D5FB9A0141748B58C5A7D9C2 (void);
-// 0x000000C0 System.Void ShowMouseCursor::.ctor()
+// 0x000000B7 System.Void ShowMouseCursor::.ctor()
 extern void ShowMouseCursor__ctor_m2B81E2D8A6102F1A2337A6484F3AC4D1D04BA057 (void);
+// 0x000000B8 System.Void Sound::.ctor()
+extern void Sound__ctor_m5DD7C9F71B98D5670BBDD05F6D6FCDF43DC9EA8F (void);
+// 0x000000B9 System.Void SpawnManager::Start()
+extern void SpawnManager_Start_m65C9EA67649948222CFF4FBBF77BE2319D813DAF (void);
+// 0x000000BA System.Void SpawnManager::Update()
+extern void SpawnManager_Update_mD714BA3EADCC182FB7A93B9DE347D727E3A1BC53 (void);
+// 0x000000BB System.Void SpawnManager::SpawnTriggerEntered()
+extern void SpawnManager_SpawnTriggerEntered_m407027FDA4F12687660914EE0479C708554FFD93 (void);
+// 0x000000BC System.Void SpawnManager::.ctor()
+extern void SpawnManager__ctor_m8DD503A0FFE79FA38CF0B7F013E54D24A04D166A (void);
+// 0x000000BD System.Void TestCharacterController::Start()
+extern void TestCharacterController_Start_m59F5BC09AA316F808F82B01D4EEE3AD5B5EF209A (void);
+// 0x000000BE System.Void TestCharacterController::Update()
+extern void TestCharacterController_Update_mB12DBF0C5D235BE7123E72B811DB6BDBF2030DEB (void);
+// 0x000000BF System.Void TestCharacterController::StopTheTruck()
+extern void TestCharacterController_StopTheTruck_m895F17717CA4EA7BE3FD0CE2E9630E01DDD6EBA8 (void);
+// 0x000000C0 System.Void TestCharacterController::.ctor()
+extern void TestCharacterController__ctor_mB934F120E41607C6E9ECCAEF93C2232FEAD93A77 (void);
 // 0x000000C1 System.Void UnityChan.AutoBlink::Awake()
 extern void AutoBlink_Awake_m360F35AE53C0715D76D2F4BD871EC39D2D3F3AB8 (void);
 // 0x000000C2 System.Void UnityChan.AutoBlink::Start()
@@ -562,10 +562,6 @@ static Il2CppMethodPointer s_methodPointers[272] =
 	GameManager_Start_m87A71D65F3171A58DBDDBFB03832ADA65643D0E2,
 	GameManager_Update_m7F29D8E933B8D21D2E67507979C0F12ACF87BB41,
 	GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368,
-	GameOverScreen_Setup_mEE89B10B88CE301210BC566928357D086840A1E1,
-	GameOverScreen_RestartButton_m5AA1EEADBACE674076413DF326CBED43654A98F1,
-	GameOverScreen_ExitButton_mE985D66F3DF66C66842CF10599413454B3BCED8B,
-	GameOverScreen__ctor_mC5150146F14E85405429254671C40F23C5BD9F20,
 	PlayerBasicCode_get_GetH_m77200DBB0A0479CE92ADA0BF46F3DC3A47478357,
 	PlayerBasicCode_get_GetV_m9DE12DF7393E6A12EB1E3F1AB53D2B9774C484BA,
 	PlayerBasicCode_get_GetCamScript_mFAD19ED64B8BA43A676BEF0014414C33EE3DAD7C,
@@ -705,9 +701,6 @@ static Il2CppMethodPointer s_methodPointers[272] =
 	QuerySoundController_PlaySoundByNumber_m750402222BA0BE336642D8D32987F3909C83EECD,
 	QuerySoundController_StopSound_mBA002C91EA96C948AAED861D74F455DAA295895F,
 	QuerySoundController__ctor_m0A6437D80F700F8108A2BDCCB2BEDD6033BF7C7A,
-	PlaySoundWhenHit_Start_m1B3D374A29965E71AD2804CE7F96D034B1EF3C53,
-	PlaySoundWhenHit_OnTriggerEnter_m5D10B57E537FB835628C18DD8F179FC56EAC197D,
-	PlaySoundWhenHit__ctor_m1C1C2B17DF5D42A07E2439E3A1AF248F77A86EFC,
 	AudioManager_Start_m3C0FEAF19F58B6D28A9E6D815B3AAF94FEA21B69,
 	AudioManager_Update_m7DF7834692993676DCBBECA42E396F7A4E623A43,
 	AudioManager__ctor_mA793A9DF6B975D03690B7C953972EFE41AE4D5E6,
@@ -719,6 +712,10 @@ static Il2CppMethodPointer s_methodPointers[272] =
 	ClickPlayButton_OnMouseDown_m3403FA7AE741439C6B13BC3816E367E64C08021B,
 	ClickPlayButton_LoadNextLevel_m3C61ADEB4BE3206410A2F3228FCA43188C5827FA,
 	ClickPlayButton__ctor_m52780C18A1526F6A3420521E18091A4A48E65901,
+	GameOverScreen_Setup_mEE89B10B88CE301210BC566928357D086840A1E1,
+	GameOverScreen_RestartButton_m5AA1EEADBACE674076413DF326CBED43654A98F1,
+	GameOverScreen_ExitButton_mE985D66F3DF66C66842CF10599413454B3BCED8B,
+	GameOverScreen__ctor_mC5150146F14E85405429254671C40F23C5BD9F20,
 	MilesScore_Start_mE472DB36600FAB16317DD4C4691AAD77A87B18E6,
 	MilesScore_Update_mB540F0F9938BEE296AFCAC1B534ECE9400BFBFF4,
 	MilesScore_increaseHeroScore_mC4721F89DFE859360D6758658AF582CA6C734A16,
@@ -731,6 +728,9 @@ static Il2CppMethodPointer s_methodPointers[272] =
 	PlayerCollisionController_Update_mB0E0CAD754F36CD786845B8E951B797B8250B0CC,
 	PlayerCollisionController_OnTriggerEnter_mC53B9C063E75E0F03A763FCD8DC229F72B5B5FF0,
 	PlayerCollisionController__ctor_m2E0B45B3CBB4FD81E1DFC5803149D77A9A322D64,
+	PlaySoundWhenHit_Start_m1B3D374A29965E71AD2804CE7F96D034B1EF3C53,
+	PlaySoundWhenHit_OnTriggerEnter_m5D10B57E537FB835628C18DD8F179FC56EAC197D,
+	PlaySoundWhenHit__ctor_m1C1C2B17DF5D42A07E2439E3A1AF248F77A86EFC,
 	PlotSpawner_Start_mA21E50C3226E2FD9B1356229258A32240278379C,
 	PlotSpawner_Update_m90CA78604447F7031167207AC3F8DD36DAE2A5A7,
 	PlotSpawner_SpawnPlot_m9769E74374218216A95883092EE265C2A0D479D2,
@@ -738,6 +738,9 @@ static Il2CppMethodPointer s_methodPointers[272] =
 	RoadSpawner_Start_m5313CBF42AB25785EEE0E0002B6925DA912E4BAE,
 	RoadSpawner_SpawnRoad_mF23C757EE754F7F4092B7354A6724115B1526E7B,
 	RoadSpawner__ctor_mA336687CD14D8E177766BA27F0B002DF0E7521EE,
+	ShowMouseCursor_Start_m56ED262213521A2D31DBD92F983299477DB6E719,
+	ShowMouseCursor_Update_m1618C193094C46F4D5FB9A0141748B58C5A7D9C2,
+	ShowMouseCursor__ctor_m2B81E2D8A6102F1A2337A6484F3AC4D1D04BA057,
 	Sound__ctor_m5DD7C9F71B98D5670BBDD05F6D6FCDF43DC9EA8F,
 	SpawnManager_Start_m65C9EA67649948222CFF4FBBF77BE2319D813DAF,
 	SpawnManager_Update_mD714BA3EADCC182FB7A93B9DE347D727E3A1BC53,
@@ -747,9 +750,6 @@ static Il2CppMethodPointer s_methodPointers[272] =
 	TestCharacterController_Update_mB12DBF0C5D235BE7123E72B811DB6BDBF2030DEB,
 	TestCharacterController_StopTheTruck_m895F17717CA4EA7BE3FD0CE2E9630E01DDD6EBA8,
 	TestCharacterController__ctor_mB934F120E41607C6E9ECCAEF93C2232FEAD93A77,
-	ShowMouseCursor_Start_m56ED262213521A2D31DBD92F983299477DB6E719,
-	ShowMouseCursor_Update_m1618C193094C46F4D5FB9A0141748B58C5A7D9C2,
-	ShowMouseCursor__ctor_m2B81E2D8A6102F1A2337A6484F3AC4D1D04BA057,
 	AutoBlink_Awake_m360F35AE53C0715D76D2F4BD871EC39D2D3F3AB8,
 	AutoBlink_Start_m2C11B3E286C2978F4621B622B8DD621F89A588B6,
 	AutoBlink_ResetTimer_m30D9460BE7FFBCA2A13B9E26C321AAC47F773BBE,
@@ -833,10 +833,6 @@ static Il2CppMethodPointer s_methodPointers[272] =
 };
 static const int32_t s_InvokerIndices[272] = 
 {
-	3433,
-	3433,
-	3433,
-	3433,
 	3433,
 	3433,
 	3433,
@@ -981,27 +977,31 @@ static const int32_t s_InvokerIndices[272] =
 	3433,
 	3433,
 	3433,
+	3433,
+	3433,
+	3433,
+	3433,
+	3433,
+	3433,
+	3433,
+	3433,
+	3433,
+	3433,
+	3433,
+	3433,
+	3433,
+	3433,
+	3433,
+	3433,
+	3433,
+	3433,
+	3433,
+	3433,
+	3433,
+	3433,
+	3433,
+	3433,
 	2799,
-	3433,
-	3433,
-	3433,
-	3433,
-	3433,
-	3433,
-	3433,
-	3433,
-	3433,
-	3433,
-	3433,
-	3433,
-	3433,
-	3433,
-	3433,
-	3433,
-	3433,
-	3433,
-	3433,
-	3433,
 	3433,
 	3433,
 	2799,
@@ -1102,7 +1102,7 @@ static const int32_t s_InvokerIndices[272] =
 	3433,
 	3433,
 	3433,
-	5188,
+	5190,
 	3433,
 	3433,
 };
