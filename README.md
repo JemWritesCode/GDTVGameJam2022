@@ -18,3 +18,5 @@ Thank you to the creators who allowed me to use assets for this game!
 * [Japanese Otaku City by ZENRIN CO., LTD.](https://assetstore.unity.com/packages/3d/environments/urban/japanese-otaku-city-20359#content)
 * [A Alloy Ink Font by wep](https://www.dafont.com/a-alloy-ink.font?l[]=10&l[]=1&text=Truck-Kun)
 * [Vinarco's Music Pack](https://assetstore.unity.com/packages/audio/music/vinarco-s-music-pack-85366)
+* [Unity-Chan! Model](https://assetstore.unity.com/packages/3d/characters/unity-chan-model-18705#publisher)
+* [Anime Character : Arisa (Free / RemakeV2 / Contain VRM)](https://assetstore.unity.com/packages/3d/characters/anime-character-arisa-free-remakev2-contain-vrm-164251)
